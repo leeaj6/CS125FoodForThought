@@ -1,0 +1,4094 @@
+db.getCollection('food').insertMany([
+    {
+        "title": "Big Mac",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 550,
+            "protein": 25,
+            "carbs": 45,
+            "sugar": 9,
+            "cholesterol": 80,
+            "sodium": 1010,
+            "fiber": 3,
+            "fat": 30,
+            "transFat": 1,
+            "saturatedFat": 11
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Big-Mac.jpg"
+    },
+    {
+        "title": "Quarter Pounder with Cheese",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 520,
+            "protein": 30,
+            "carbs": 42,
+            "sugar": 10,
+            "cholesterol": 95,
+            "sodium": 1140,
+            "fiber": 2,
+            "fat": 26,
+            "transFat": 1.5,
+            "saturatedFat": 12
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.jpg"
+    },
+    {
+        "title": "Double Quarter Pounder with Cheese",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 740,
+            "protein": 48,
+            "carbs": 43,
+            "sugar": 10,
+            "cholesterol": 165,
+            "sodium": 1360,
+            "fiber": 2,
+            "fat": 42,
+            "transFat": 2.5,
+            "saturatedFat": 20
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Double-Quarter-Pounder-with-Cheese.jpg"
+    },
+    {
+        "title": "Quarter Pounder\u00ae with Cheese Deluxe",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 630,
+            "protein": 30,
+            "carbs": 44,
+            "sugar": 11,
+            "cholesterol": 105,
+            "sodium": 1210,
+            "fiber": 3,
+            "fat": 37,
+            "transFat": 1.5,
+            "saturatedFat": 14
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-qpc-deluxe-burger.jpg"
+    },
+    {
+        "title": "McDouble",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 400,
+            "protein": 22,
+            "carbs": 33,
+            "sugar": 7,
+            "cholesterol": 70,
+            "sodium": 920,
+            "fiber": 2,
+            "fat": 20,
+            "transFat": 1,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McDouble.jpg"
+    },
+    {
+        "title": "Bacon Quarter Pounder with Cheese",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 630,
+            "protein": 36,
+            "carbs": 43,
+            "sugar": 10,
+            "cholesterol": 115,
+            "sodium": 1470,
+            "fiber": 3,
+            "fat": 35,
+            "transFat": 1.5,
+            "saturatedFat": 15
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-qpc-bacon.jpg"
+    },
+    {
+        "title": "Cheeseburger",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 300,
+            "protein": 15,
+            "carbs": 32,
+            "sugar": 7,
+            "cholesterol": 40,
+            "sodium": 720,
+            "fiber": 2,
+            "fat": 13,
+            "transFat": 0.5,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Cheeseburger.jpg"
+    },
+    {
+        "title": "Double Cheeseburger",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 450,
+            "protein": 25,
+            "carbs": 34,
+            "sugar": 7,
+            "cholesterol": 85,
+            "sodium": 1120,
+            "fiber": 2,
+            "fat": 24,
+            "transFat": 1.5,
+            "saturatedFat": 11
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Double-Cheeseburger.jpg"
+    },
+    {
+        "title": "Hamburger",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 250,
+            "protein": 12,
+            "carbs": 31,
+            "sugar": 6,
+            "cholesterol": 30,
+            "sodium": 510,
+            "fiber": 1,
+            "fat": 9,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Hamburger.jpg"
+    },
+    {
+        "title": "Chicken McNuggets (10 piece)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 23,
+            "carbs": 25,
+            "sugar": 0,
+            "cholesterol": 65,
+            "sodium": 840,
+            "fiber": 1,
+            "fat": 25,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-10pc.jpg"
+    },
+    {
+        "title": "Chicken McNuggets\u00ae (4 piece)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 170,
+            "protein": 9,
+            "carbs": 10,
+            "sugar": 0,
+            "cholesterol": 25,
+            "sodium": 330,
+            "fiber": 0,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 1.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-4pc.jpg"
+    },
+    {
+        "title": "Chicken McNuggets\u00ae (6 piece)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 250,
+            "protein": 14,
+            "carbs": 15,
+            "sugar": 0,
+            "cholesterol": 40,
+            "sodium": 500,
+            "fiber": 1,
+            "fat": 15,
+            "transFat": 0,
+            "saturatedFat": 2.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-6pc.jpg"
+    },
+    {
+        "title": "Buttermilk Crispy Chicken Sandwich",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 600,
+            "protein": 27,
+            "carbs": 57,
+            "sugar": 9,
+            "cholesterol": 60,
+            "sodium": 980,
+            "fiber": 2,
+            "fat": 29,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Premium-Buttermilk-Crispy-Chicken-Deluxe-Sandwich.jpg"
+    },
+    {
+        "title": "McChicken",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 400,
+            "protein": 14,
+            "carbs": 39,
+            "sugar": 5,
+            "cholesterol": 40,
+            "sodium": 560,
+            "fiber": 1,
+            "fat": 21,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McChicken.jpg"
+    },
+    {
+        "title": "Filet-O-Fish",
+        "restaurant": "MCD",
+        "allergies": [
+            "Fish",
+            "pollock",
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 380,
+            "protein": 16,
+            "carbs": 39,
+            "sugar": 5,
+            "cholesterol": 40,
+            "sodium": 580,
+            "fiber": 2,
+            "fat": 18,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.jpg"
+    },
+    {
+        "title": "Chicken McNuggets (20 piece)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 830,
+            "protein": 46,
+            "carbs": 51,
+            "sugar": 0,
+            "cholesterol": 130,
+            "sodium": 1670,
+            "fiber": 2,
+            "fat": 49,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-20pc.jpg"
+    },
+    {
+        "title": "Bacon Cheddar Hot 'n Spicy McChicken",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 620,
+            "protein": 31,
+            "carbs": 53,
+            "sugar": 17,
+            "cholesterol": 80,
+            "sodium": 1140,
+            "fiber": 2,
+            "fat": 32,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": null
+    },
+    {
+        "title": "Chicken McNuggets (40 piece)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 1660,
+            "protein": 92,
+            "carbs": 102,
+            "sugar": 0,
+            "cholesterol": 255,
+            "sodium": 3350,
+            "fiber": 4,
+            "fat": 99,
+            "transFat": 0.5,
+            "saturatedFat": 16
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chicken-McNuggets-40pc.jpg"
+    },
+    {
+        "title": "Bacon, Egg  & Cheese Biscuit",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 460,
+            "protein": 17,
+            "carbs": 39,
+            "sugar": 3,
+            "cholesterol": 215,
+            "sodium": 1330,
+            "fiber": 2,
+            "fat": 26,
+            "transFat": 0,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit.jpg"
+    },
+    {
+        "title": "Egg McMuffin",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 310,
+            "protein": 17,
+            "carbs": 30,
+            "sugar": 3,
+            "cholesterol": 250,
+            "sodium": 770,
+            "fiber": 2,
+            "fat": 13,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Egg-McMuffin.jpg"
+    },
+    {
+        "title": "Sausage McMuffin",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 400,
+            "protein": 14,
+            "carbs": 29,
+            "sugar": 2,
+            "cholesterol": 55,
+            "sodium": 760,
+            "fiber": 2,
+            "fat": 26,
+            "transFat": 0.5,
+            "saturatedFat": 10
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-McMuffin.jpg"
+    },
+    {
+        "title": "Sausage McMuffin\u00ae with Egg",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 480,
+            "protein": 20,
+            "carbs": 30,
+            "sugar": 2,
+            "cholesterol": 280,
+            "sodium": 830,
+            "fiber": 2,
+            "fat": 31,
+            "transFat": 0.5,
+            "saturatedFat": 12
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-McMuffin-with-Egg.jpg"
+    },
+    {
+        "title": "Sausage Biscuit",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 460,
+            "protein": 11,
+            "carbs": 36,
+            "sugar": 3,
+            "cholesterol": 40,
+            "sodium": 1050,
+            "fiber": 2,
+            "fat": 30,
+            "transFat": 0,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-Biscuit-Regular-Size-Biscuit.jpg"
+    },
+    {
+        "title": "Sausage Biscuit  with Egg",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 530,
+            "protein": 17,
+            "carbs": 38,
+            "sugar": 3,
+            "cholesterol": 205,
+            "sodium": 1140,
+            "fiber": 2,
+            "fat": 34,
+            "transFat": 0,
+            "saturatedFat": 15
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-Biscuit-with-Egg-Regular-Size-Biscuit.jpg"
+    },
+    {
+        "title": "Bacon, Egg & Cheese McGriddles",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 430,
+            "protein": 17,
+            "carbs": 44,
+            "sugar": 15,
+            "cholesterol": 215,
+            "sodium": 1230,
+            "fiber": 2,
+            "fat": 21,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Bacon-Egg-Cheese-McGriddles.jpg"
+    },
+    {
+        "title": "Sausage McGriddles",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 430,
+            "protein": 11,
+            "carbs": 41,
+            "sugar": 14,
+            "cholesterol": 35,
+            "sodium": 990,
+            "fiber": 2,
+            "fat": 24,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-McGriddles.jpg"
+    },
+    {
+        "title": "Sausage, Egg & Cheese McGriddles",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 550,
+            "protein": 19,
+            "carbs": 44,
+            "sugar": 15,
+            "cholesterol": 235,
+            "sodium": 1290,
+            "fiber": 2,
+            "fat": 33,
+            "transFat": 0,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-Egg-Cheese-McGriddles.jpg"
+    },
+    {
+        "title": "Bacon, Egg & Cheese Bagel",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 590,
+            "protein": 25,
+            "carbs": 56,
+            "sugar": 7,
+            "cholesterol": 245,
+            "sodium": 1320,
+            "fiber": 2,
+            "fat": 30,
+            "transFat": 0.5,
+            "saturatedFat": 12
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Bacon-Egg-Cheese-Bagel.jpg"
+    },
+    {
+        "title": "Big Breakfast",
+        "restaurant": "MCD",
+        "allergies": [
+            "Egg"
+        ],
+        "nutrition": {
+            "calories": 760,
+            "protein": 26,
+            "carbs": 57,
+            "sugar": 3,
+            "cholesterol": 485,
+            "sodium": 1530,
+            "fiber": 3,
+            "fat": 48,
+            "transFat": 0,
+            "saturatedFat": 18
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/s-mcdonalds-Big-Breakfast-Regular-Size-Biscuit.jpg"
+    },
+    {
+        "title": "Big Breakfast with Hotcakes",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 1340,
+            "protein": 36,
+            "carbs": 158,
+            "sugar": 48,
+            "cholesterol": 525,
+            "sodium": 2070,
+            "fiber": 5,
+            "fat": 63,
+            "transFat": 0.5,
+            "saturatedFat": 25
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Big-Breakfast-with-Hotcakes-Regular-Size-Biscuit.jpg"
+    },
+    {
+        "title": "Hotcakes",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 580,
+            "protein": 9,
+            "carbs": 101,
+            "sugar": 45,
+            "cholesterol": 45,
+            "sodium": 550,
+            "fiber": 2,
+            "fat": 15,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Hotcakes.jpg"
+    },
+    {
+        "title": "Hotcakes and Sausage",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Egg",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 770,
+            "protein": 15,
+            "carbs": 102,
+            "sugar": 46,
+            "cholesterol": 75,
+            "sodium": 830,
+            "fiber": 2,
+            "fat": 33,
+            "transFat": 0,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Hotcakes-and-Sausage.jpg"
+    },
+    {
+        "title": "Sausage Burrito",
+        "restaurant": "MCD",
+        "allergies": [
+            "Egg",
+            "Milk",
+            "Flour",
+            "Tortilla",
+            "Ingredients",
+            "Enriched",
+            "Flour",
+            "bleached",
+            "Wheat",
+            "Flour",
+            "Malted",
+            "Barley",
+            "Flour",
+            "Niacin",
+            "Reduced",
+            "Iron",
+            "Thiamine",
+            "Mononitrate",
+            "Riboflavin",
+            "Folic",
+            "Acid",
+            "Water",
+            "Shortening",
+            "intereserified",
+            "Soybean",
+            "Oil",
+            "Soybean",
+            "Oil",
+            "Hydrogenated",
+            "Soybean",
+            "Oil",
+            "Hydrogenated",
+            "Cottonseed",
+            "Oil",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Sugar",
+            "Leavening",
+            "baking",
+            "Soda",
+            "Corn",
+            "Starch",
+            "Sodium",
+            "Aluminum",
+            "Sulfate",
+            "Calcium",
+            "Sulfate",
+            "Monocalcium",
+            "Phosphate",
+            "Salt",
+            "Monodiglycerides",
+            "Vital",
+            "Wheat",
+            "Gluten",
+            "Dough",
+            "Conditioner",
+            "sodium",
+            "Metabisulfite",
+            "Corn",
+            "Starch",
+            "Microcrystalline",
+            "Cellulose",
+            "Dicalcium",
+            "Phosphate"
+        ],
+        "nutrition": {
+            "calories": 310,
+            "protein": 13,
+            "carbs": 25,
+            "sugar": 2,
+            "cholesterol": 170,
+            "sodium": 800,
+            "fiber": 1,
+            "fat": 17,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sausage-Burrito.jpg"
+    },
+    {
+        "title": "Hash Browns",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 140,
+            "protein": 2,
+            "carbs": 18,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 310,
+            "fiber": 2,
+            "fat": 8,
+            "transFat": 0,
+            "saturatedFat": 1
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-HASH-BROWNS.jpg"
+    },
+    {
+        "title": "Fruit & Maple Oatmeal",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 6,
+            "carbs": 64,
+            "sugar": 31,
+            "cholesterol": 5,
+            "sodium": 150,
+            "fiber": 4,
+            "fat": 4.5,
+            "transFat": 0,
+            "saturatedFat": 1.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Fruit-Maple-Oatmeal.jpg"
+    },
+    {
+        "title": "Blueberry Muffin",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Egg"
+        ],
+        "nutrition": {
+            "calories": 470,
+            "protein": 6,
+            "carbs": 64,
+            "sugar": 36,
+            "cholesterol": 35,
+            "sodium": 360,
+            "fiber": 2,
+            "fat": 22,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-blueberry-muffin.jpg"
+    },
+    {
+        "title": "Hot N Spicy McChicken Biscuit",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 14,
+            "carbs": 45,
+            "sugar": 2,
+            "cholesterol": 35,
+            "sodium": 1130,
+            "fiber": 2,
+            "fat": 20,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-mcchicken-spicy-biscuit.jpg"
+    },
+    {
+        "title": "Large French Fries",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 490,
+            "protein": 7,
+            "carbs": 66,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 400,
+            "fiber": 6,
+            "fat": 23,
+            "transFat": 0,
+            "saturatedFat": 3
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-fries-large.jpg"
+    },
+    {
+        "title": "Small French Fries",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 220,
+            "protein": 3,
+            "carbs": 29,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 180,
+            "fiber": 3,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 1.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-fries-small.jpg"
+    },
+    {
+        "title": "Apple Slices",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 15,
+            "protein": 0,
+            "carbs": 4,
+            "sugar": 3,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Apple-Slices.jpg"
+    },
+    {
+        "title": "Kids Fries",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 110,
+            "protein": 2,
+            "carbs": 15,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 90,
+            "fiber": 1,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 0.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-fries-kids.jpg"
+    },
+    {
+        "title": "Medium French Fries",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 5,
+            "carbs": 43,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 260,
+            "fiber": 4,
+            "fat": 15,
+            "transFat": 0,
+            "saturatedFat": 2
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-fries-medium.jpg"
+    },
+    {
+        "title": "Minute Maid Blue Raspberry Slushie (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 190,
+            "protein": 0,
+            "carbs": 51,
+            "sugar": 51,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-blue-raspberry-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Fruit Punch Slushie (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 170,
+            "protein": 0,
+            "carbs": 45,
+            "sugar": 45,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-fruit-punch-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Pink Lemonade Slushie (small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 190,
+            "protein": 0,
+            "carbs": 53,
+            "sugar": 51,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-pink-lemonade-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Pink Lemonade Slushie (medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 250,
+            "protein": 0,
+            "carbs": 68,
+            "sugar": 66,
+            "cholesterol": 0,
+            "sodium": 30,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-pink-lemonade-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Pink Lemonade Slushie (large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 350,
+            "protein": 0,
+            "carbs": 95,
+            "sugar": 93,
+            "cholesterol": 0,
+            "sodium": 40,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-pink-lemonade-slushie.jpg"
+    },
+    {
+        "title": "Coca-Cola (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 150,
+            "protein": 0,
+            "carbs": 39,
+            "sugar": 39,
+            "cholesterol": 0,
+            "sodium": 40,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coca-Cola-Classic-Small.jpg"
+    },
+    {
+        "title": "Sprite (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 140,
+            "protein": 0,
+            "carbs": 35,
+            "sugar": 35,
+            "cholesterol": 0,
+            "sodium": 65,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sprite-Small.jpg"
+    },
+    {
+        "title": "Fanta\u00ae Orange (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 150,
+            "protein": 0,
+            "carbs": 39,
+            "sugar": 38,
+            "cholesterol": 0,
+            "sodium": 40,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-fanta-orange.jpg"
+    },
+    {
+        "title": "Dr Pepper (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 140,
+            "protein": 0,
+            "carbs": 38,
+            "sugar": 37,
+            "cholesterol": 0,
+            "sodium": 50,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Dr-Pepper-Small.jpg"
+    },
+    {
+        "title": "MIX by Sprite\u2122 Tropic Berry (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 130,
+            "protein": 0,
+            "carbs": 36,
+            "sugar": 35,
+            "cholesterol": 0,
+            "sodium": 40,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-mix-by-sprite-tropicberry.jpg"
+    },
+    {
+        "title": "Diet Coke (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 10,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Diet-Coke-Small.jpg"
+    },
+    {
+        "title": "Chocolate Shake (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 520,
+            "protein": 12,
+            "carbs": 85,
+            "sugar": 67,
+            "cholesterol": 55,
+            "sodium": 250,
+            "fiber": 1,
+            "fat": 14,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Vanilla Shake (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 490,
+            "protein": 11,
+            "carbs": 79,
+            "sugar": 55,
+            "cholesterol": 55,
+            "sodium": 220,
+            "fiber": 0,
+            "fat": 13,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Strawberry Shake (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 500,
+            "protein": 11,
+            "carbs": 80,
+            "sugar": 68,
+            "cholesterol": 55,
+            "sodium": 190,
+            "fiber": 0,
+            "fat": 14,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Hot Chocolate (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Chocolate",
+            "Liquor",
+            "Caramel",
+            "Color",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Natural",
+            "Flavors",
+            "Vanilla",
+            "Extract",
+            "Salt",
+            "Gellan",
+            "Gum",
+            "Citric",
+            "Acid",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 370,
+            "protein": 11,
+            "carbs": 52,
+            "sugar": 48,
+            "cholesterol": 40,
+            "sodium": 170,
+            "fiber": 1,
+            "fat": 14,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg"
+    },
+    {
+        "title": "Iced Tea (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 1,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 10,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Sweet Tea (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 90,
+            "protein": 0,
+            "carbs": 21,
+            "sugar": 21,
+            "cholesterol": 0,
+            "sodium": 15,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Reduced Sugar* Low Fat Chocolate Milk Jug",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 130,
+            "protein": 9,
+            "carbs": 18,
+            "sugar": 14,
+            "cholesterol": 10,
+            "sodium": 95,
+            "fiber": 0,
+            "fat": 2.5,
+            "transFat": 0,
+            "saturatedFat": 1.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-reduced-sugar-low-fat-chocolate-milk.jpg"
+    },
+    {
+        "title": "1% Low Fat Milk Jug",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 100,
+            "protein": 8,
+            "carbs": 12,
+            "sugar": 11,
+            "cholesterol": 10,
+            "sodium": 90,
+            "fiber": 0,
+            "fat": 2,
+            "transFat": 0,
+            "saturatedFat": 1.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-1-Low-Fat-Milk-Jug.jpg"
+    },
+    {
+        "title": "Dasani Water",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Dasani-Water.jpg"
+    },
+    {
+        "title": "Latte Pumpkin Spice (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 240,
+            "protein": 8,
+            "carbs": 36,
+            "sugar": 35,
+            "cholesterol": 20,
+            "sodium": 115,
+            "fiber": 0,
+            "fat": 7,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-pumpkin-spice-latte.jpg"
+    },
+    {
+        "title": "Sweet Tea (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 110,
+            "protein": 0,
+            "carbs": 28,
+            "sugar": 28,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Coca-Cola  (Extra Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 110,
+            "protein": 0,
+            "carbs": 28,
+            "sugar": 28,
+            "cholesterol": 0,
+            "sodium": 30,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coca-Cola-Classic-Small.jpg"
+    },
+    {
+        "title": "Coca-Cola (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 290,
+            "protein": 0,
+            "carbs": 77,
+            "sugar": 77,
+            "cholesterol": 0,
+            "sodium": 80,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coca-Cola-Classic-Small.jpg"
+    },
+    {
+        "title": "Coca-Cola (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 210,
+            "protein": 0,
+            "carbs": 56,
+            "sugar": 56,
+            "cholesterol": 0,
+            "sodium": 55,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coca-Cola-Classic-Small.jpg"
+    },
+    {
+        "title": "Diet Coke (Extra Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 10,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Diet-Coke-Small.jpg"
+    },
+    {
+        "title": "Diet Coke (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Diet-Coke-Small.jpg"
+    },
+    {
+        "title": "Diet Coke (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 15,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Diet-Coke-Small.jpg"
+    },
+    {
+        "title": "Dr Pepper (Extra Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 100,
+            "protein": 0,
+            "carbs": 27,
+            "sugar": 27,
+            "cholesterol": 0,
+            "sodium": 35,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Dr-Pepper-Small.jpg"
+    },
+    {
+        "title": "Dr Pepper (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 280,
+            "protein": 0,
+            "carbs": 75,
+            "sugar": 73,
+            "cholesterol": 0,
+            "sodium": 90,
+            "fiber": 1,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Dr-Pepper-Small.jpg"
+    },
+    {
+        "title": "Dr Pepper (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 200,
+            "protein": 0,
+            "carbs": 54,
+            "sugar": 53,
+            "cholesterol": 0,
+            "sodium": 65,
+            "fiber": 1,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Dr-Pepper-Small.jpg"
+    },
+    {
+        "title": "Iced Tea (Extra Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 1,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 10,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Iced Tea (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 1,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Iced Tea (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 1,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 15,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Sprite (Extra Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 90,
+            "protein": 0,
+            "carbs": 27,
+            "sugar": 27,
+            "cholesterol": 0,
+            "sodium": 50,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sprite-Small.jpg"
+    },
+    {
+        "title": "Sprite (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 230,
+            "protein": 0,
+            "carbs": 69,
+            "sugar": 69,
+            "cholesterol": 0,
+            "sodium": 130,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sprite-Small.jpg"
+    },
+    {
+        "title": "Sprite (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 170,
+            "protein": 0,
+            "carbs": 51,
+            "sugar": 51,
+            "cholesterol": 0,
+            "sodium": 95,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Sprite-Small.jpg"
+    },
+    {
+        "title": "Sweet Tea (Extra Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 60,
+            "protein": 0,
+            "carbs": 15,
+            "sugar": 15,
+            "cholesterol": 0,
+            "sodium": 10,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Sweet Tea (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 160,
+            "protein": 1,
+            "carbs": 38,
+            "sugar": 38,
+            "cholesterol": 0,
+            "sodium": 25,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Iced-Tea-Large.jpg"
+    },
+    {
+        "title": "Minute Maid Orange Juice (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 150,
+            "protein": 2,
+            "carbs": 36,
+            "sugar": 32,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Minute-Maid-Orange-Juice-Medium.jpg"
+    },
+    {
+        "title": "Minute Maid Fruit Punch Slushie (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 170,
+            "protein": 0,
+            "carbs": 45,
+            "sugar": 45,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-fruit-punch-slushie.jpg"
+    },
+    {
+        "title": "Honest Kids Appley Ever After (Box 6 fl oz Drink Box)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 35,
+            "protein": 0,
+            "carbs": 8,
+            "sugar": 8,
+            "cholesterol": 0,
+            "sodium": 15,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-appley-ever-after.jpg"
+    },
+    {
+        "title": "Minute Maid Blue Raspberry Slushie (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 190,
+            "protein": 0,
+            "carbs": 51,
+            "sugar": 51,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-blue-raspberry-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Orange Juice (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 280,
+            "protein": 4,
+            "carbs": 65,
+            "sugar": 58,
+            "cholesterol": 0,
+            "sodium": 5,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Minute-Maid-Orange-Juice-Medium.jpg"
+    },
+    {
+        "title": "Minute Maid Orange Juice (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 200,
+            "protein": 3,
+            "carbs": 45,
+            "sugar": 41,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Minute-Maid-Orange-Juice-Medium.jpg"
+    },
+    {
+        "title": "Minute Maid Pink Lemonade Slushie (small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 190,
+            "protein": 0,
+            "carbs": 53,
+            "sugar": 51,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-pink-lemonade-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Pink Lemonade Slushie (medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 250,
+            "protein": 0,
+            "carbs": 68,
+            "sugar": 66,
+            "cholesterol": 0,
+            "sodium": 30,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-pink-lemonade-slushie.jpg"
+    },
+    {
+        "title": "Minute Maid Pink Lemonade Slushie (large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 350,
+            "protein": 0,
+            "carbs": 95,
+            "sugar": 93,
+            "cholesterol": 0,
+            "sodium": 40,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-minute-maid-pink-lemonade-slushie.jpg"
+    },
+    {
+        "title": "Caramel Macchiato (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 260,
+            "protein": 8,
+            "carbs": 41,
+            "sugar": 37,
+            "cholesterol": 25,
+            "sodium": 340,
+            "fiber": 0,
+            "fat": 7,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-caramel-macchiato.jpg"
+    },
+    {
+        "title": "Iced Caramel Macchiato (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 210,
+            "protein": 6,
+            "carbs": 32,
+            "sugar": 29,
+            "cholesterol": 20,
+            "sodium": 260,
+            "fiber": 0,
+            "fat": 6,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-iced-caramel-macchiato.jpg"
+    },
+    {
+        "title": "Cappuccino (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 120,
+            "protein": 6,
+            "carbs": 9,
+            "sugar": 9,
+            "cholesterol": 20,
+            "sodium": 80,
+            "fiber": 0,
+            "fat": 6,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-cappuccino.jpg"
+    },
+    {
+        "title": "Caramel Cappuccino (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 210,
+            "protein": 6,
+            "carbs": 35,
+            "sugar": 32,
+            "cholesterol": 15,
+            "sodium": 300,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-caramel-cappuccino.jpg"
+    },
+    {
+        "title": "Vanilla Cappuccino (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 190,
+            "protein": 6,
+            "carbs": 30,
+            "sugar": 29,
+            "cholesterol": 15,
+            "sodium": 70,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-vanilla-cappuccino.jpg"
+    },
+    {
+        "title": "Iced Mocha (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Ice",
+            "Ingredients",
+            "Ice"
+        ],
+        "nutrition": {
+            "calories": 280,
+            "protein": 7,
+            "carbs": 39,
+            "sugar": 35,
+            "cholesterol": 35,
+            "sodium": 110,
+            "fiber": 1,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha Caramel (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Caramel",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Fructose",
+            "Propylene",
+            "Glycol",
+            "Caramel",
+            "Color",
+            "Chocolate",
+            "Liquor",
+            "Salt",
+            "Natural",
+            "Flavor",
+            "High",
+            "Fructose",
+            "Corn",
+            "Syrup",
+            "Gellan",
+            "Gum",
+            "Potassium",
+            "Sorbate",
+            "preservative",
+            "Steviol",
+            "Glycosides",
+            "Citric",
+            "Acid",
+            "Malic",
+            "Acid"
+        ],
+        "nutrition": {
+            "calories": 290,
+            "protein": 8,
+            "carbs": 42,
+            "sugar": 38,
+            "cholesterol": 30,
+            "sodium": 210,
+            "fiber": 0,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Iced Caramel Mocha (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Caramel",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Fructose",
+            "Propylene",
+            "Glycol",
+            "Caramel",
+            "Color",
+            "Chocolate",
+            "Liquor",
+            "Salt",
+            "Natural",
+            "Flavor",
+            "High",
+            "Fructose",
+            "Corn",
+            "Syrup",
+            "Gellan",
+            "Gum",
+            "Potassium",
+            "Sorbate",
+            "preservative",
+            "Steviol",
+            "Glycosides",
+            "Citric",
+            "Acid",
+            "Malic",
+            "Acid"
+        ],
+        "nutrition": {
+            "calories": 260,
+            "protein": 6,
+            "carbs": 36,
+            "sugar": 31,
+            "cholesterol": 35,
+            "sodium": 170,
+            "fiber": 0,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Latte (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 140,
+            "protein": 7,
+            "carbs": 12,
+            "sugar": 11,
+            "cholesterol": 25,
+            "sodium": 100,
+            "fiber": 0,
+            "fat": 8,
+            "transFat": 0,
+            "saturatedFat": 4.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Latte (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 190,
+            "protein": 10,
+            "carbs": 15,
+            "sugar": 15,
+            "cholesterol": 30,
+            "sodium": 135,
+            "fiber": 0,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Iced Latte (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 90,
+            "protein": 4,
+            "carbs": 7,
+            "sugar": 7,
+            "cholesterol": 15,
+            "sodium": 65,
+            "fiber": 0,
+            "fat": 4.5,
+            "transFat": 0,
+            "saturatedFat": 2.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-iced-latte.jpg"
+    },
+    {
+        "title": "Latte Caramel (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 250,
+            "protein": 8,
+            "carbs": 38,
+            "sugar": 35,
+            "cholesterol": 25,
+            "sodium": 330,
+            "fiber": 0,
+            "fat": 7,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Caramel-Latte-Medium.jpg"
+    },
+    {
+        "title": "Iced Caramel Latte (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 180,
+            "protein": 6,
+            "carbs": 28,
+            "sugar": 26,
+            "cholesterol": 15,
+            "sodium": 250,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-iced-caramel-latte.jpg"
+    },
+    {
+        "title": "Latte French Vanilla (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 230,
+            "protein": 8,
+            "carbs": 33,
+            "sugar": 32,
+            "cholesterol": 20,
+            "sodium": 100,
+            "fiber": 0,
+            "fat": 7,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Vanilla-Latte-Medium.jpg"
+    },
+    {
+        "title": "Iced French Vanilla Latte (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 190,
+            "protein": 7,
+            "carbs": 28,
+            "sugar": 26,
+            "cholesterol": 20,
+            "sodium": 85,
+            "fiber": 0,
+            "fat": 6,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-iced-french-vanilla-latte.jpg"
+    },
+    {
+        "title": "Espresso Americano Coffee (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 0,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 10,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-americano.jpg"
+    },
+    {
+        "title": "Coffee (Small)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 2,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coffee-Medium.jpg"
+    },
+    {
+        "title": "Iced Coffee (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 140,
+            "protein": 2,
+            "carbs": 24,
+            "sugar": 22,
+            "cholesterol": 20,
+            "sodium": 50,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg"
+    },
+    {
+        "title": "Iced Coffee Caramel (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Caramel",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Sweetened",
+            "Condensed",
+            "Skim",
+            "Milk",
+            "milk",
+            "Sugar",
+            "Water",
+            "Corn",
+            "Syrup",
+            "Natural",
+            "Flavors",
+            "Brown",
+            "Sugar",
+            "Propylene",
+            "Glycol",
+            "Sea",
+            "Salt",
+            "Disodium",
+            "Phosphate",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 140,
+            "protein": 3,
+            "carbs": 23,
+            "sugar": 20,
+            "cholesterol": 20,
+            "sodium": 220,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Caramel-Iced-Coffee.jpg"
+    },
+    {
+        "title": "Iced Coffee French Vanilla (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 120,
+            "protein": 2,
+            "carbs": 19,
+            "sugar": 17,
+            "cholesterol": 20,
+            "sodium": 50,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Vanilla-Iced-Coffee.jpg"
+    },
+    {
+        "title": "Frappe Caramel (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Whipped",
+            "Light",
+            "Cream",
+            "Ingredients",
+            "Cream",
+            "Nonfat",
+            "Milk",
+            "Liquid",
+            "Sugar",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Mono",
+            "And",
+            "Diglycerides",
+            "Natural",
+            "Flavors",
+            "Carrageenan"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 7,
+            "carbs": 60,
+            "sugar": 55,
+            "cholesterol": 60,
+            "sodium": 125,
+            "fiber": 0,
+            "fat": 17,
+            "transFat": 1,
+            "saturatedFat": 11
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Frappe-Caramel-Medium.jpg"
+    },
+    {
+        "title": "Frappe Mocha (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Whipped",
+            "Light",
+            "Cream",
+            "Ingredients",
+            "Cream",
+            "Nonfat",
+            "Milk",
+            "Liquid",
+            "Sugar",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Mono",
+            "And",
+            "Diglycerides",
+            "Natural",
+            "Flavors",
+            "Carrageenan"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 7,
+            "carbs": 60,
+            "sugar": 54,
+            "cholesterol": 60,
+            "sodium": 120,
+            "fiber": 1,
+            "fat": 17,
+            "transFat": 0.5,
+            "saturatedFat": 11
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Frappe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Hot Chocolate (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Chocolate",
+            "Liquor",
+            "Caramel",
+            "Color",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Natural",
+            "Flavors",
+            "Vanilla",
+            "Extract",
+            "Salt",
+            "Gellan",
+            "Gum",
+            "Citric",
+            "Acid",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 370,
+            "protein": 11,
+            "carbs": 52,
+            "sugar": 48,
+            "cholesterol": 40,
+            "sodium": 170,
+            "fiber": 1,
+            "fat": 14,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg"
+    },
+    {
+        "title": "Strawberry Banana Smoothie (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 190,
+            "protein": 2,
+            "carbs": 44,
+            "sugar": 39,
+            "cholesterol": 5,
+            "sodium": 40,
+            "fiber": 2,
+            "fat": 0.5,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-Banana-Smoothie-Medium.jpg"
+    },
+    {
+        "title": "Mango Pineapple Smoothie (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 200,
+            "protein": 2,
+            "carbs": 45,
+            "sugar": 42,
+            "cholesterol": 5,
+            "sodium": 35,
+            "fiber": 1,
+            "fat": 0.5,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Mango-Pineapple-Smoothie-Small.jpg"
+    },
+    {
+        "title": "Mocha (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Chocolate",
+            "Liquor",
+            "Caramel",
+            "Color",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Natural",
+            "Flavors",
+            "Vanilla",
+            "Extract",
+            "Salt",
+            "Gellan",
+            "Gum",
+            "Citric",
+            "Acid",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 380,
+            "protein": 10,
+            "carbs": 57,
+            "sugar": 52,
+            "cholesterol": 35,
+            "sodium": 150,
+            "fiber": 2,
+            "fat": 12,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Chocolate",
+            "Liquor",
+            "Caramel",
+            "Color",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Natural",
+            "Flavors",
+            "Vanilla",
+            "Extract",
+            "Salt",
+            "Gellan",
+            "Gum",
+            "Citric",
+            "Acid",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 470,
+            "protein": 13,
+            "carbs": 70,
+            "sugar": 64,
+            "cholesterol": 45,
+            "sodium": 200,
+            "fiber": 2,
+            "fat": 16,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Iced Mocha (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Ice",
+            "Ingredients",
+            "Ice"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 8,
+            "carbs": 48,
+            "sugar": 43,
+            "cholesterol": 35,
+            "sodium": 125,
+            "fiber": 2,
+            "fat": 11,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Iced Mocha (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Ice",
+            "Ingredients",
+            "Ice"
+        ],
+        "nutrition": {
+            "calories": 450,
+            "protein": 11,
+            "carbs": 69,
+            "sugar": 62,
+            "cholesterol": 45,
+            "sodium": 180,
+            "fiber": 2,
+            "fat": 15,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha Caramel (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Caramel",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Fructose",
+            "Propylene",
+            "Glycol",
+            "Caramel",
+            "Color",
+            "Chocolate",
+            "Liquor",
+            "Salt",
+            "Natural",
+            "Flavor",
+            "High",
+            "Fructose",
+            "Corn",
+            "Syrup",
+            "Gellan",
+            "Gum",
+            "Potassium",
+            "Sorbate",
+            "preservative",
+            "Steviol",
+            "Glycosides",
+            "Citric",
+            "Acid",
+            "Malic",
+            "Acid"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 12,
+            "carbs": 62,
+            "sugar": 56,
+            "cholesterol": 45,
+            "sodium": 320,
+            "fiber": 0,
+            "fat": 14,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Hot Chocolate (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Chocolate",
+            "Liquor",
+            "Caramel",
+            "Color",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Natural",
+            "Flavors",
+            "Vanilla",
+            "Extract",
+            "Salt",
+            "Gellan",
+            "Gum",
+            "Citric",
+            "Acid",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 450,
+            "protein": 14,
+            "carbs": 63,
+            "sugar": 58,
+            "cholesterol": 50,
+            "sodium": 210,
+            "fiber": 2,
+            "fat": 16,
+            "transFat": 0,
+            "saturatedFat": 10
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg"
+    },
+    {
+        "title": "Hot Chocolate (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Chocolate",
+            "Syrup",
+            "Ingredients",
+            "Sugar",
+            "Water",
+            "Chocolate",
+            "Liquor",
+            "Caramel",
+            "Color",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Natural",
+            "Flavors",
+            "Vanilla",
+            "Extract",
+            "Salt",
+            "Gellan",
+            "Gum",
+            "Citric",
+            "Acid",
+            "Potassium",
+            "Sorbate",
+            "preservative"
+        ],
+        "nutrition": {
+            "calories": 560,
+            "protein": 17,
+            "carbs": 76,
+            "sugar": 71,
+            "cholesterol": 60,
+            "sodium": 260,
+            "fiber": 2,
+            "fat": 20,
+            "transFat": 0.5,
+            "saturatedFat": 12
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg"
+    },
+    {
+        "title": "Strawberry Banana Smoothie (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 330,
+            "protein": 4,
+            "carbs": 76,
+            "sugar": 68,
+            "cholesterol": 5,
+            "sodium": 70,
+            "fiber": 4,
+            "fat": 1,
+            "transFat": 0,
+            "saturatedFat": 0.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-Banana-Smoothie-Medium.jpg"
+    },
+    {
+        "title": "Caramel Macchiato (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 400,
+            "protein": 13,
+            "carbs": 61,
+            "sugar": 56,
+            "cholesterol": 35,
+            "sodium": 510,
+            "fiber": 0,
+            "fat": 12,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-caramel-macchiato.jpg"
+    },
+    {
+        "title": "Caramel Macchiato (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 10,
+            "carbs": 50,
+            "sugar": 45,
+            "cholesterol": 30,
+            "sodium": 420,
+            "fiber": 0,
+            "fat": 9,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-caramel-macchiato.jpg"
+    },
+    {
+        "title": "Caramel Cappuccino (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 340,
+            "protein": 11,
+            "carbs": 55,
+            "sugar": 50,
+            "cholesterol": 30,
+            "sodium": 470,
+            "fiber": 0,
+            "fat": 9,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-caramel-cappuccino.jpg"
+    },
+    {
+        "title": "Caramel Cappuccino (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 260,
+            "protein": 8,
+            "carbs": 44,
+            "sugar": 40,
+            "cholesterol": 20,
+            "sodium": 380,
+            "fiber": 0,
+            "fat": 6,
+            "transFat": 0,
+            "saturatedFat": 3.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-caramel-cappuccino.jpg"
+    },
+    {
+        "title": "Latte (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 250,
+            "protein": 13,
+            "carbs": 20,
+            "sugar": 19,
+            "cholesterol": 40,
+            "sodium": 180,
+            "fiber": 0,
+            "fat": 13,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Latte (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 190,
+            "protein": 10,
+            "carbs": 15,
+            "sugar": 15,
+            "cholesterol": 30,
+            "sodium": 135,
+            "fiber": 0,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Cappuccino (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 160,
+            "protein": 8,
+            "carbs": 13,
+            "sugar": 12,
+            "cholesterol": 25,
+            "sodium": 110,
+            "fiber": 0,
+            "fat": 8,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-cappuccino.jpg"
+    },
+    {
+        "title": "Cappuccino (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 210,
+            "protein": 11,
+            "carbs": 17,
+            "sugar": 16,
+            "cholesterol": 35,
+            "sodium": 140,
+            "fiber": 0,
+            "fat": 11,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-cappuccino.jpg"
+    },
+    {
+        "title": "Iced Caramel Latte (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 270,
+            "protein": 9,
+            "carbs": 40,
+            "sugar": 36,
+            "cholesterol": 25,
+            "sodium": 340,
+            "fiber": 0,
+            "fat": 8,
+            "transFat": 0,
+            "saturatedFat": 4.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-iced-caramel-latte.jpg"
+    },
+    {
+        "title": "Latte Caramel (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 400,
+            "protein": 14,
+            "carbs": 59,
+            "sugar": 55,
+            "cholesterol": 40,
+            "sodium": 510,
+            "fiber": 0,
+            "fat": 12,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Latte Caramel (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 320,
+            "protein": 11,
+            "carbs": 48,
+            "sugar": 45,
+            "cholesterol": 30,
+            "sodium": 420,
+            "fiber": 0,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Latte French Vanilla (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 290,
+            "protein": 10,
+            "carbs": 42,
+            "sugar": 41,
+            "cholesterol": 30,
+            "sodium": 125,
+            "fiber": 0,
+            "fat": 9,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Latte French Vanilla  (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 360,
+            "protein": 12,
+            "carbs": 51,
+            "sugar": 50,
+            "cholesterol": 35,
+            "sodium": 160,
+            "fiber": 0,
+            "fat": 12,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Frappe Caramel (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Whipped",
+            "Light",
+            "Cream",
+            "Ingredients",
+            "Cream",
+            "Nonfat",
+            "Milk",
+            "Liquid",
+            "Sugar",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Mono",
+            "And",
+            "Diglycerides",
+            "Natural",
+            "Flavors",
+            "Carrageenan"
+        ],
+        "nutrition": {
+            "calories": 510,
+            "protein": 8,
+            "carbs": 72,
+            "sugar": 67,
+            "cholesterol": 75,
+            "sodium": 150,
+            "fiber": 0,
+            "fat": 21,
+            "transFat": 1,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Frappe-Caramel-Medium.jpg"
+    },
+    {
+        "title": "Frappe Mocha (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Whipped",
+            "Light",
+            "Cream",
+            "Ingredients",
+            "Cream",
+            "Nonfat",
+            "Milk",
+            "Liquid",
+            "Sugar",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Mono",
+            "And",
+            "Diglycerides",
+            "Natural",
+            "Flavors",
+            "Carrageenan"
+        ],
+        "nutrition": {
+            "calories": 670,
+            "protein": 11,
+            "carbs": 98,
+            "sugar": 89,
+            "cholesterol": 90,
+            "sodium": 200,
+            "fiber": 1,
+            "fat": 26,
+            "transFat": 1,
+            "saturatedFat": 17
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Frappe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Frappe Mocha (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Whipped",
+            "Light",
+            "Cream",
+            "Ingredients",
+            "Cream",
+            "Nonfat",
+            "Milk",
+            "Liquid",
+            "Sugar",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Mono",
+            "And",
+            "Diglycerides",
+            "Natural",
+            "Flavors",
+            "Carrageenan"
+        ],
+        "nutrition": {
+            "calories": 500,
+            "protein": 8,
+            "carbs": 73,
+            "sugar": 66,
+            "cholesterol": 70,
+            "sodium": 150,
+            "fiber": 1,
+            "fat": 20,
+            "transFat": 1,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Frappe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Frappe Caramel (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk",
+            "Whipped",
+            "Light",
+            "Cream",
+            "Ingredients",
+            "Cream",
+            "Nonfat",
+            "Milk",
+            "Liquid",
+            "Sugar",
+            "Contains",
+            "2",
+            "Or",
+            "Less",
+            "Mono",
+            "And",
+            "Diglycerides",
+            "Natural",
+            "Flavors",
+            "Carrageenan"
+        ],
+        "nutrition": {
+            "calories": 670,
+            "protein": 11,
+            "carbs": 96,
+            "sugar": 89,
+            "cholesterol": 95,
+            "sodium": 200,
+            "fiber": 0,
+            "fat": 27,
+            "transFat": 1,
+            "saturatedFat": 17
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Frappe-Caramel-Medium.jpg"
+    },
+    {
+        "title": "Iced Mocha Caramel (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 300,
+            "protein": 7,
+            "carbs": 43,
+            "sugar": 38,
+            "cholesterol": 35,
+            "sodium": 210,
+            "fiber": 0,
+            "fat": 11,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Iced Mocha Caramel (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 410,
+            "protein": 10,
+            "carbs": 60,
+            "sugar": 54,
+            "cholesterol": 45,
+            "sodium": 300,
+            "fiber": 0,
+            "fat": 14,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Iced Mocha (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 460,
+            "protein": 11,
+            "carbs": 68,
+            "sugar": 62,
+            "cholesterol": 45,
+            "sodium": 180,
+            "fiber": 2,
+            "fat": 15,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 470,
+            "protein": 13,
+            "carbs": 70,
+            "sugar": 64,
+            "cholesterol": 45,
+            "sodium": 200,
+            "fiber": 2,
+            "fat": 16,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha Caramel (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 330,
+            "protein": 9,
+            "carbs": 50,
+            "sugar": 45,
+            "cholesterol": 35,
+            "sodium": 250,
+            "fiber": 0,
+            "fat": 11,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha Caramel (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 420,
+            "protein": 12,
+            "carbs": 61,
+            "sugar": 55,
+            "cholesterol": 45,
+            "sodium": 310,
+            "fiber": 0,
+            "fat": 14,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Mocha (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 180,
+            "protein": 10,
+            "carbs": 16,
+            "sugar": 13,
+            "cholesterol": 25,
+            "sodium": 115,
+            "fiber": 1,
+            "fat": 9,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg"
+    },
+    {
+        "title": "Latte (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 250,
+            "protein": 13,
+            "carbs": 20,
+            "sugar": 19,
+            "cholesterol": 40,
+            "sodium": 180,
+            "fiber": 0,
+            "fat": 13,
+            "transFat": 0,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg"
+    },
+    {
+        "title": "Espresso Americano Coffee (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 15,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-americano.jpg"
+    },
+    {
+        "title": "Espresso Americano Coffee (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 15,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-americano.jpg"
+    },
+    {
+        "title": "Coffee (Large)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 2,
+            "carbs": 2,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 30,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coffee-Medium.jpg"
+    },
+    {
+        "title": "Coffee (Medium)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 2,
+            "carbs": 2,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 25,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Coffee-Medium.jpg"
+    },
+    {
+        "title": "Mango Pineapple Smoothie (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 340,
+            "protein": 4,
+            "carbs": 78,
+            "sugar": 72,
+            "cholesterol": 5,
+            "sodium": 60,
+            "fiber": 2,
+            "fat": 1,
+            "transFat": 0,
+            "saturatedFat": 0.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Mango-Pineapple-Smoothie-Small.jpg"
+    },
+    {
+        "title": "Chocolate Shake (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 520,
+            "protein": 12,
+            "carbs": 85,
+            "sugar": 67,
+            "cholesterol": 55,
+            "sodium": 250,
+            "fiber": 1,
+            "fat": 14,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Vanilla Shake (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 490,
+            "protein": 11,
+            "carbs": 79,
+            "sugar": 55,
+            "cholesterol": 55,
+            "sodium": 220,
+            "fiber": 0,
+            "fat": 13,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Strawberry Shake (Small)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 500,
+            "protein": 11,
+            "carbs": 80,
+            "sugar": 68,
+            "cholesterol": 55,
+            "sodium": 190,
+            "fiber": 0,
+            "fat": 14,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Vanilla Cone",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 200,
+            "protein": 5,
+            "carbs": 32,
+            "sugar": 23,
+            "cholesterol": 20,
+            "sodium": 80,
+            "fiber": 0,
+            "fat": 5,
+            "transFat": 0,
+            "saturatedFat": 3
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Vanilla-Reduced-Fat-Ice-Cream-Cone.jpg"
+    },
+    {
+        "title": "Hot Fudge Sundae",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 330,
+            "protein": 8,
+            "carbs": 52,
+            "sugar": 45,
+            "cholesterol": 25,
+            "sodium": 180,
+            "fiber": 2,
+            "fat": 10,
+            "transFat": 0,
+            "saturatedFat": 7
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Hot-Fudge-Sundae.jpg"
+    },
+    {
+        "title": "McFlurry with M&M'S Chocolate Candies",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 640,
+            "protein": 13,
+            "carbs": 96,
+            "sugar": 83,
+            "cholesterol": 45,
+            "sodium": 200,
+            "fiber": 2,
+            "fat": 21,
+            "transFat": 0.5,
+            "saturatedFat": 14
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mm-mcflurry-snack.jpg"
+    },
+    {
+        "title": "Kiddie Cone",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 45,
+            "protein": 1,
+            "carbs": 8,
+            "sugar": 5,
+            "cholesterol": 5,
+            "sodium": 20,
+            "fiber": 0,
+            "fat": 1,
+            "transFat": 0,
+            "saturatedFat": 0.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Kiddie-Cone.jpg"
+    },
+    {
+        "title": "Hot Caramel Sundae",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 340,
+            "protein": 7,
+            "carbs": 60,
+            "sugar": 42,
+            "cholesterol": 30,
+            "sodium": 160,
+            "fiber": 0,
+            "fat": 7,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Hot-Caramel-Sundae.jpg"
+    },
+    {
+        "title": "McFlurry with Oreo Cookies",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 510,
+            "protein": 12,
+            "carbs": 80,
+            "sugar": 60,
+            "cholesterol": 40,
+            "sodium": 260,
+            "fiber": 1,
+            "fat": 16,
+            "transFat": 0.5,
+            "saturatedFat": 8
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-oreo-mcflurry-snack.jpg"
+    },
+    {
+        "title": "Baked Hot Apple Pie",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 240,
+            "protein": 2,
+            "carbs": 33,
+            "sugar": 15,
+            "cholesterol": 0,
+            "sodium": 95,
+            "fiber": 2,
+            "fat": 11,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Baked-Hot-Apple-Pie.jpg"
+    },
+    {
+        "title": "Chocolate Chip Cookie",
+        "restaurant": "MCD",
+        "allergies": [
+            "Egg",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 170,
+            "protein": 2,
+            "carbs": 22,
+            "sugar": 15,
+            "cholesterol": 10,
+            "sodium": 95,
+            "fiber": 1,
+            "fat": 8,
+            "transFat": 0,
+            "saturatedFat": 4
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-Chip-Cookie.jpg"
+    },
+    {
+        "title": "Chocolate Shake (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 620,
+            "protein": 14,
+            "carbs": 102,
+            "sugar": 81,
+            "cholesterol": 65,
+            "sodium": 300,
+            "fiber": 1,
+            "fat": 16,
+            "transFat": 0.5,
+            "saturatedFat": 10
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Chocolate Shake (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 830,
+            "protein": 19,
+            "carbs": 139,
+            "sugar": 110,
+            "cholesterol": 80,
+            "sodium": 410,
+            "fiber": 1,
+            "fat": 21,
+            "transFat": 1,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Strawberry Shake (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 590,
+            "protein": 14,
+            "carbs": 95,
+            "sugar": 80,
+            "cholesterol": 65,
+            "sodium": 220,
+            "fiber": 0,
+            "fat": 16,
+            "transFat": 0.5,
+            "saturatedFat": 11
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Strawberry Shake (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 800,
+            "protein": 19,
+            "carbs": 130,
+            "sugar": 109,
+            "cholesterol": 85,
+            "sodium": 310,
+            "fiber": 0,
+            "fat": 21,
+            "transFat": 1,
+            "saturatedFat": 14
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Vanilla Shake (Medium)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 590,
+            "protein": 13,
+            "carbs": 96,
+            "sugar": 68,
+            "cholesterol": 65,
+            "sodium": 270,
+            "fiber": 0,
+            "fat": 16,
+            "transFat": 0.5,
+            "saturatedFat": 10
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "Vanilla Shake (Large)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 790,
+            "protein": 18,
+            "carbs": 130,
+            "sugar": 93,
+            "cholesterol": 80,
+            "sodium": 370,
+            "fiber": 0,
+            "fat": 21,
+            "transFat": 1,
+            "saturatedFat": 13
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg"
+    },
+    {
+        "title": "McFlurry with M&M'S Chocolate Candies (Snack Size)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 420,
+            "protein": 9,
+            "carbs": 64,
+            "sugar": 55,
+            "cholesterol": 30,
+            "sodium": 130,
+            "fiber": 1,
+            "fat": 14,
+            "transFat": 0,
+            "saturatedFat": 9
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mm-mcflurry-snack.jpg"
+    },
+    {
+        "title": "McFlurry with Oreo Cookies (Snack Size)",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 340,
+            "protein": 8,
+            "carbs": 53,
+            "sugar": 40,
+            "cholesterol": 25,
+            "sodium": 170,
+            "fiber": 1,
+            "fat": 11,
+            "transFat": 0,
+            "saturatedFat": 5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-oreo-mcflurry-snack.jpg"
+    },
+    {
+        "title": "Hot Mustard Sauce",
+        "restaurant": "MCD",
+        "allergies": [
+            "Egg"
+        ],
+        "nutrition": {
+            "calories": 50,
+            "protein": 1,
+            "carbs": 8,
+            "sugar": 6,
+            "cholesterol": 5,
+            "sodium": 230,
+            "fiber": 1,
+            "fat": 2,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-hot-mustard-sauce.jpg"
+    },
+    {
+        "title": "Tangy Barbeque Sauce",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 45,
+            "protein": 0,
+            "carbs": 11,
+            "sugar": 9,
+            "cholesterol": 0,
+            "sodium": 260,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-tangy-bbq-sauce.jpg"
+    },
+    {
+        "title": "Honey",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 50,
+            "protein": 0,
+            "carbs": 12,
+            "sugar": 11,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-honey.jpg"
+    },
+    {
+        "title": "Sweet 'N Sour Sauce",
+        "restaurant": "MCD",
+        "allergies": [
+            "Wheat",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 50,
+            "protein": 0,
+            "carbs": 11,
+            "sugar": 10,
+            "cholesterol": 0,
+            "sodium": 160,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-sweet-n-sour-sauce.jpg"
+    },
+    {
+        "title": "Spicy Buffalo Sauce",
+        "restaurant": "MCD",
+        "allergies": [
+            "Milk"
+        ],
+        "nutrition": {
+            "calories": 30,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 520,
+            "fiber": 0,
+            "fat": 3,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-spicy-buffalo-sauce.jpg"
+    },
+    {
+        "title": "Honey Mustard Sauce",
+        "restaurant": "MCD",
+        "allergies": [
+            "Egg"
+        ],
+        "nutrition": {
+            "calories": 60,
+            "protein": 0,
+            "carbs": 6,
+            "sugar": 4,
+            "cholesterol": 5,
+            "sodium": 125,
+            "fiber": 1,
+            "fat": 3.5,
+            "transFat": 0,
+            "saturatedFat": 0.5
+        },
+        "image_url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-honey-mustard-sauce.jpg"
+    },
+    {
+        "title": "Grape Jam",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 40,
+            "protein": 0,
+            "carbs": 9,
+            "sugar": 7,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Strawberry Preserves",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 35,
+            "protein": 0,
+            "carbs": 9,
+            "sugar": 9,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Sugar Packet",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 15,
+            "protein": 0,
+            "carbs": 4,
+            "sugar": 4,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Equal 0 Calorie Sweetener",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 1,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Splenda No Calorie Sweetener",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 1,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Low Fat Crunchy Granola Packet",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 30,
+            "protein": 1,
+            "carbs": 6,
+            "sugar": 2,
+            "cholesterol": 0,
+            "sodium": 40,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Picante Sauce Packet (Hot)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 140,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "Picante Sauce Packet (Mild)",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 0,
+            "protein": 0,
+            "carbs": 1,
+            "sugar": 0,
+            "cholesterol": 0,
+            "sodium": 130,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    },
+    {
+        "title": "White Buttermints",
+        "restaurant": "MCD",
+        "allergies": [],
+        "nutrition": {
+            "calories": 15,
+            "protein": 0,
+            "carbs": 3,
+            "sugar": 3,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fiber": 0,
+            "fat": 0,
+            "transFat": 0,
+            "saturatedFat": 0
+        },
+        "image_url": null
+    }
+])
