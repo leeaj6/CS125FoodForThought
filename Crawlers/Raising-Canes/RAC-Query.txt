@@ -1,0 +1,265 @@
+db.getCollection('food').insertMany([
+    {
+        "title": "Individual Chicken Finger",
+        "restaurant": "RAC",
+        "allergies": [
+            "Eggs",
+            "Milk",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 130,
+            "protein": 13,
+            "carbs": 5,
+            "sugar": 0,
+            "cholesterol": 40,
+            "sodium": 190,
+            "fiber": 0,
+            "fat": 6,
+            "transFat": 0,
+            "saturatedFat": 1
+        },
+        "image_url": null,
+        "price": 1.39
+    },
+    {
+        "title": "Crinkle-Cut Fries",
+        "restaurant": "RAC",
+        "allergies": [
+            "Eggs",
+            "Milk",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 390,
+            "protein": 5,
+            "carbs": 49,
+            "sugar": 1,
+            "cholesterol": 0,
+            "sodium": 310,
+            "fiber": 0,
+            "fat": 19,
+            "transFat": 0,
+            "saturatedFat": 2
+        },
+        "image_url": null,
+        "price": 1.95
+    },
+    {
+        "title": "Texas Toast",
+        "restaurant": "RAC",
+        "allergies": [
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 140,
+            "protein": 4,
+            "carbs": 23,
+            "sugar": 4,
+            "cholesterol": 0,
+            "sodium": 260,
+            "fiber": 0,
+            "fat": 4,
+            "transFat": 0,
+            "saturatedFat": 1.5
+        },
+        "image_url": null,
+        "price": 0.99
+    },
+    {
+        "title": "Coleslaw",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg"
+        ],
+        "nutrition": {
+            "calories": 100,
+            "protein": 1,
+            "carbs": 11,
+            "sugar": 7,
+            "cholesterol": 5,
+            "sodium": 310,
+            "fiber": 0,
+            "fat": 6,
+            "transFat": 0,
+            "saturatedFat": 1
+        },
+        "image_url": null,
+        "price": 0.99
+    },
+    {
+        "title": "Cane's Sauce",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Soy"
+        ],
+        "nutrition": {
+            "calories": 190,
+            "protein": 0,
+            "carbs": 6,
+            "sugar": 4,
+            "cholesterol": 10,
+            "sodium": 580,
+            "fiber": 0,
+            "fat": 19,
+            "transFat": 0,
+            "saturatedFat": 3
+        },
+        "image_url": null,
+        "price": 0.37
+    },
+    {
+        "title": "Chicken Sandwich",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 780,
+            "protein": 48,
+            "carbs": 66,
+            "sugar": 13,
+            "cholesterol": 120,
+            "sodium": 1470,
+            "fiber": 0,
+            "fat": 39,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": null,
+        "price": 5.22
+    },
+    {
+        "title": "Kids Combo",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 630,
+            "protein": 29,
+            "carbs": 38,
+            "sugar": 5,
+            "cholesterol": 85,
+            "sodium": 1100,
+            "fiber": 0,
+            "fat": 40,
+            "transFat": 0,
+            "saturatedFat": 6
+        },
+        "image_url": null,
+        "price": 4.99
+    },
+    {
+        "title": "3 Finger Combo",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 1020,
+            "protein": 47,
+            "carbs": 81,
+            "sugar": 9,
+            "cholesterol": 125,
+            "sodium": 1640,
+            "fiber": 0,
+            "fat": 56,
+            "transFat": 0.5,
+            "saturatedFat": 9
+        },
+        "image_url": null,
+        "price": 7.42
+    },
+    {
+        "title": "Box Combo",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 1250,
+            "protein": 61,
+            "carbs": 97,
+            "sugar": 16,
+            "cholesterol": 170,
+            "sodium": 2130,
+            "fiber": 0,
+            "fat": 68,
+            "transFat": 0.5,
+            "saturatedFat": 11
+        },
+        "image_url": null,
+        "price": 8.35
+    },
+    {
+        "title": "Caniac Combo",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 1790,
+            "protein": 89,
+            "carbs": 124,
+            "sugar": 21,
+            "cholesterol": 255,
+            "sodium": 3160,
+            "fiber": 0,
+            "fat": 104,
+            "transFat": 1,
+            "saturatedFat": 16
+        },
+        "image_url": null,
+        "price": 12.53
+    },
+    {
+        "title": "Chicken Sandwich Combo",
+        "restaurant": "RAC",
+        "allergies": [
+            "Egg",
+            "Fish",
+            "Milk",
+            "Soy",
+            "Wheat"
+        ],
+        "nutrition": {
+            "calories": 1080,
+            "protein": 52,
+            "carbs": 103,
+            "sugar": 13,
+            "cholesterol": 120,
+            "sodium": 1700,
+            "fiber": 0,
+            "fat": 54,
+            "transFat": 0.5,
+            "saturatedFat": 8
+        },
+        "image_url": null,
+        "price": 7.42
+    }
+])
