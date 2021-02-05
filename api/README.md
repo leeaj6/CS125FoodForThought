@@ -1,6 +1,6 @@
 # Food for Thought API Docs
 
-### List All Foods
+### List All Foods (Example is truncated)
 
 **Definition**
 
@@ -13,39 +13,45 @@
 ```json
 {
     "success": true,
-    "count": 11,
+    "count": 291,
     "data": [
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c34"
+                "$oid": "600e6c2287995719ada449f2"
             },
-            "title": "Individual Chicken Finger",
-            "restaurant": "RAC",
+            "title": "Chick-fil-A® Chicken Biscuit",
+            "restaurant": "CFA",
+            "breakfast": true,
+            "cuisine": [
+                "American",
+                "Fast Food"
+            ],
             "allergies": [
-                "Eggs",
+                "Egg",
                 "Milk",
+                "Soy",
                 "Wheat"
             ],
             "nutrition": {
-                "calories": 130,
-                "protein": 13,
-                "carbs": 5,
-                "sugar": 0,
-                "cholesterol": 40,
-                "sodium": 190,
-                "fiber": 0,
-                "fat": 6,
+                "calories": 460,
+                "protein": 19,
+                "carbs": 45,
+                "sugar": 6,
+                "cholesterol": 45,
+                "sodium": 1510,
+                "fiber": 2,
+                "fat": 23,
                 "transFat": 0,
-                "saturatedFat": 1
+                "saturatedFat": 8
             },
-            "image_url": null,
-            "price": 1.39
+            "image_url": "https://www.cfacdn.com/img/order/menu/Mobile/Breakfast/Menu%20Item/Edited_400x280/ChickenBiscuit_mobile.png",
+            "price": 3.19
         }
     ]
 }
 ```
 
-### List All Foods From A Restaurant
+### List All Foods From A Restaurant (Example is truncated)
 
 **Definition**
 
@@ -58,36 +64,38 @@
 ```json
 {
     "success": true,
-    "count": 11,
-    "restaurant": "RAC",
+    "count": 4,
+    "restaurant": "CFG",
     "data": [
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c34"
+                "$oid": "600e72dc87995719ada44b11"
             },
-            "title": "Individual Chicken Finger",
-            "restaurant": "RAC",
+            "title": "Atlantic Salmon",
+            "restaurant": "CFG",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Seafood"
+            ],
             "allergies": [
-                "Eggs",
-                "Milk",
-                "Wheat"
+                "Fish"
             ],
             "nutrition": {
-                "calories": 130,
-                "protein": 13,
-                "carbs": 5,
+                "calories": 340,
+                "protein": 22,
+                "carbs": 0,
                 "sugar": 0,
-                "cholesterol": 40,
-                "sodium": 190,
+                "cholesterol": 130,
+                "sodium": 360,
                 "fiber": 0,
-                "fat": 6,
+                "fat": 13,
                 "transFat": 0,
-                "saturatedFat": 1
+                "saturatedFat": 3
             },
             "image_url": null,
-            "price": 1.39
+            "price": 12.79
         }
-        ...
     ]
 }
 ```
@@ -110,14 +118,19 @@
 ```json
 {
     "success": true,
-    "count": 5,
+    "count": 6,
     "data": [
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c3c"
+                "$oid": "600e6cdb87995719ada44b0c"
             },
             "title": "Box Combo",
             "restaurant": "RAC",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Fast Food"
+            ],
             "allergies": [
                 "Egg",
                 "Fish",
@@ -142,10 +155,15 @@
         },
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c3d"
+                "$oid": "600e6cdb87995719ada44b0d"
             },
             "title": "Caniac Combo",
             "restaurant": "RAC",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Fast Food"
+            ],
             "allergies": [
                 "Egg",
                 "Fish",
@@ -170,10 +188,15 @@
         },
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c3a"
+                "$oid": "600e6cdb87995719ada44b0a"
             },
             "title": "Kids Combo",
             "restaurant": "RAC",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Fast Food"
+            ],
             "allergies": [
                 "Egg",
                 "Fish",
@@ -198,10 +221,44 @@
         },
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c3e"
+                "$oid": "600e72dc87995719ada44b12"
+            },
+            "title": "Salmon & Swai Combo",
+            "restaurant": "CFG",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Seafood"
+            ],
+            "allergies": [
+                "Fish"
+            ],
+            "nutrition": {
+                "calories": 330,
+                "protein": 22,
+                "carbs": 2,
+                "sugar": 0,
+                "cholesterol": 140,
+                "sodium": 720,
+                "fiber": 0,
+                "fat": 11,
+                "transFat": 0,
+                "saturatedFat": 3
+            },
+            "image_url": null,
+            "price": 12.29
+        },
+        {
+            "_id": {
+                "$oid": "600e6cdb87995719ada44b0e"
             },
             "title": "Chicken Sandwich Combo",
             "restaurant": "RAC",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Fast Food"
+            ],
             "allergies": [
                 "Egg",
                 "Fish",
@@ -226,10 +283,15 @@
         },
         {
             "_id": {
-                "$oid": "600ceff0ca6f77a343750c3b"
+                "$oid": "600e6cdb87995719ada44b0b"
             },
             "title": "3 Finger Combo",
             "restaurant": "RAC",
+            "breakfast": false,
+            "cuisine": [
+                "American",
+                "Fast Food"
+            ],
             "allergies": [
                 "Egg",
                 "Fish",
