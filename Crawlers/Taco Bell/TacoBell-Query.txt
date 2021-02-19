@@ -662,7 +662,7 @@ db.getCollection('food').insertMany([
         "price": 1.99
     },
 	{
-        "title": "Power Menu Bowl,
+        "title": "Power Menu Bowl",
         "restaurant": "TacoBell",
         "breakfast": false,
         "cuisine": [
