@@ -317,3 +317,62 @@
     ]
 }
 ```
+
+## Food Recommendation
+
+`POST /api/v1/foods/recommendations`
+
+**Request JSON Body**
+
+```json
+    {
+        "allergies": ["Egg", "Milk", "Wheat"],
+        "budget": 9.0,
+        "preferences": ["Mexican"],
+        "nutrition": {
+            "calories": 200
+        },
+        "breakfast": true
+    }
+```
+
+**Response**
+
+- `400` if Invalid Query
+- `200 OK` on success
+
+```json
+{
+    "success": true,
+    "count": 1,
+    "data": [
+        {
+            "_id": {
+                "$oid": "60301d7926af4af5952982d6"
+            },
+            "title": "Hash Brown",
+            "restaurant": "TacoBell",
+            "breakfast": true,
+            "cuisine": [
+                "Mexican",
+                "Fast Food"
+            ],
+            "allergies": [],
+            "nutrition": {
+                "calories": 160,
+                "protein": 1,
+                "carbs": 13,
+                "sugar": 0,
+                "cholesterol": 0,
+                "sodium": 270,
+                "fiber": 2,
+                "fat": 12,
+                "transFat": 0,
+                "saturatedFat": 1
+            },
+            "image_url": null,
+            "price": 1.29
+        }
+    ]
+}
+```
