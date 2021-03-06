@@ -267,47 +267,9 @@ db.getCollection('food').insertMany([
         "price": 1.95
     },
     {
-        "title": "Frosted Snowman Cookie",
-        "restaurant": "Starbucks",
-        "allergies": [],
-        "nutrition": {
-            "saturated fat": 14.0,
-            "fat": 22.0,
-            "sugar": 24.0,
-            "calories": 390.0,
-            "carbs": 44.0,
-            "cholesterol": 35.0,
-            "protein": 4.0,
-            "sodium": 160.0,
-            "fiber": 1.0,
-            "trans fat": 0.0
-        },
-        "image_url": "https://images.spoonacular.com/file/wximages/263384-90x90.jpg",
-        "price": null
-    },
-    {
-        "title": "Cranberry Orange Scone",
-        "restaurant": "Starbucks",
-        "allergies": [],
-        "nutrition": {
-            "saturated fat": 9.0,
-            "sugar": 34.0,
-            "fat": 18.0,
-            "calories": 490.0,
-            "carbs": 73.0,
-            "sodium": 460.0,
-            "cholesterol": 55.0,
-            "protein": 8.0,
-            "fiber": 2.0,
-            "trans fat": 0.0
-        },
-        "image_url": "https://images.spoonacular.com/file/wximages/262053-90x90.jpg",
-        "price": null
-    },
-    {
         "title": "Salted Caramel Cake Pop",
         "restaurant": "Starbucks",
-        "allergies": [],
+        "allergies": [Egg, Milk, Wheat, Soy],
         "nutrition": {
             "saturated fat": 5.0,
             "sugar": 20.0,
@@ -321,31 +283,12 @@ db.getCollection('food').insertMany([
             "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263391-90x90.jpg",
-        "price": null
-    },
-    {
-        "title": "Outrageous Oatmeal Cookie",
-        "restaurant": "Starbucks",
-        "allergies": [],
-        "nutrition": {
-            "saturated fat": 8.0,
-            "sugar": 29.0,
-            "fat": 15.0,
-            "calories": 360.0,
-            "carbs": 52.0,
-            "fiber": 3.0,
-            "protein": 6.0,
-            "cholesterol": 35.0,
-            "sodium": 180.0,
-            "trans fat": 0.0
-        },
-        "image_url": "https://images.spoonacular.com/file/wximages/263387-90x90.jpg",
-        "price": null
+        "price": 1.00
     },
     {
         "title": "Petite Vanilla Bean Scone",
         "restaurant": "Starbucks",
-        "allergies": [],
+        "allergies": [Egg, Milk, Wheat, Soy],
         "nutrition": {
             "saturated fat": 2.0,
             "sugar": 9.0,
@@ -359,7 +302,7 @@ db.getCollection('food').insertMany([
             "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262066-90x90.jpg",
-        "price": null
+        "price": 2.45
     },
     {
         "title": "Reduced Fat Banana Chocolate Chip Coffee Cake",
@@ -379,25 +322,6 @@ db.getCollection('food').insertMany([
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262074-90x90.jpg",
         "price": 2.75
-    },
-    {
-        "title": "Blueberry Scone w/ Buttermilk and Lemon",
-        "restaurant": "Starbucks",
-        "allergies": [],
-        "nutrition": {
-            "trans fat": 0.5,
-            "saturated fat": 8.0,
-            "fat": 16.0,
-            "cholesterol": 65.0,
-            "sugar": 19.0,
-            "sodium": 470.0,
-            "calories": 390.0,
-            "carbs": 56.0,
-            "protein": 5.0,
-            "fiber": 2.0
-        },
-        "image_url": "https://images.spoonacular.com/file/wximages/316742-90x90.jpg",
-        "price": null
     },
     {
         "title": "Double Chocolate Brownie",
@@ -474,24 +398,5 @@ db.getCollection('food').insertMany([
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262047-90x90.jpg",
         "price": 2.75
-    },
-    {
-        "title": "Zucchini Walnut Muffin",
-        "restaurant": "Starbucks",
-        "allergies": [Egg, Milk, Wheat, Soy],
-        "nutrition": {
-            "fat": 38.0,
-            "sugar": 36.0,
-            "calories": 640.0,
-            "saturated fat": 5.0,
-            "cholesterol": 70.0,
-            "protein": 11.0,
-            "carbs": 65.0,
-            "sodium": 250.0,
-            "fiber": 2.0,
-            "trans fat": 0.0
-        },
-        "image_url": "https://images.spoonacular.com/file/wximages/283792-90x90.jpg",
-        "price": 2.95
-    },
+    }
 ])
