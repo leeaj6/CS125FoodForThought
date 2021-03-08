@@ -8,7 +8,7 @@ db.getCollection('food').insertMany([
         "nutrition": {
             "sodium": 1130.0,
             "protein": 23.0,
-            "saturated fat": 4.0,
+            "saturatedFat": 4.0,
             "calories": 340.0,
             "fat": 10.0,
             "cholesterol": 45.0,
@@ -29,7 +29,7 @@ db.getCollection('food').insertMany([
         "nutrition": {
             "protein": 33.0,
             "sodium": 1120.0,
-            "saturated fat": 6.0,
+            "saturatedFat": 6.0,
             "fat": 18.0,
             "calories": 480.0,
             "cholesterol": 55.0,
@@ -49,7 +49,7 @@ db.getCollection('food').insertMany([
         "nutrition": {
             "protein": 26.0,
             "sodium": 930.0,
-            "saturated fat": 6.0,
+            "saturatedFat": 6.0,
             "cholesterol": 70.0,
             "calories": 410.0,
             "fat": 12.0,
@@ -69,7 +69,7 @@ db.getCollection('food').insertMany([
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
             "protein": 33.0,
-            "saturated fat": 8.0,
+            "saturatedFat": 8.0,
             "sodium": 940.0,
             "fat": 22.0,
             "cholesterol": 80.0,
@@ -92,7 +92,7 @@ db.getCollection('food').insertMany([
             "protein": 19.0,
             "sodium": 830.0,
             "fiber": 6.0,
-            "saturated fat": 3.5,
+            "saturatedFat": 3.5,
             "fat": 10.0,
             "calories": 290.0,
             "carbs": 33.0,
@@ -111,7 +111,7 @@ db.getCollection('food').insertMany([
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
             "cholesterol": 160.0,
-            "saturated fat": 5.0,
+            "saturatedFat": 5.0,
             "protein": 12.0,
             "fat": 13.0,
             "sodium": 460.0,
@@ -132,7 +132,7 @@ db.getCollection('food').insertMany([
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
             "cholesterol": 165.0,
-            "saturated fat": 7.0,
+            "saturatedFat": 7.0,
             "sodium": 820.0,
             "protein": 17.0,
             "fat": 18.0,
@@ -152,7 +152,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
-            "saturated fat": 9.0,
+            "saturatedFat": 9.0,
             "cholesterol": 165.0,
             "fat": 28.0,
             "sodium": 920.0,
@@ -175,7 +175,7 @@ db.getCollection('food').insertMany([
         "nutrition": {
             "protein": 13.0,
             "sodium": 560.0,
-            "saturated fat": 2.5,
+            "saturatedFat": 2.5,
             "calories": 230.0,
             "carbs": 28.0,
             "fat": 6.0,
@@ -194,7 +194,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
-            "saturated fat": 6.0,
+            "saturatedFat": 6.0,
             "protein": 15.0,
             "fat": 18.0,
             "sodium": 630.0,
@@ -215,7 +215,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "saturated fat": 15.0,
+            "saturatedFat": 15.0,
             "fat": 25.0,
             "sodium": 630.0,
             "calories": 480.0,
@@ -242,7 +242,7 @@ db.getCollection('food').insertMany([
             "fat": 17.0,
             "carbs": 66.0,
             "calories": 420.0,
-            "saturated fat": 3.0,
+            "saturatedFat": 3.0,
             "sodium": 370.0,
             "protein": 5.0,
             "fiber": 1.0
@@ -257,7 +257,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "saturated fat": 11.0,
+            "saturatedFat": 11.0,
             "sugar": 36.0,
             "cholesterol": 95.0,
             "fat": 19.0,
@@ -278,7 +278,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
-            "saturated fat": 6.0,
+            "saturatedFat": 6.0,
             "sugar": 16.0,
             "fat": 10.0,
             "cholesterol": 30.0,
@@ -299,7 +299,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "saturated fat": 5.0,
+            "saturatedFat": 5.0,
             "sugar": 20.0,
             "fat": 8.0,
             "calories": 180.0,
@@ -320,7 +320,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "saturated fat": 2.0,
+            "saturatedFat": 2.0,
             "sugar": 9.0,
             "fat": 4.5,
             "carbs": 18.0,
@@ -342,7 +342,7 @@ db.getCollection('food').insertMany([
         "allergies": ["Treenuts", "Wheat", "Egg", "Soy"],
         "nutrition": {
             "sugar": 50.0,
-            "saturated fat": 4.5,
+            "saturatedFat": 4.5,
             "carbs": 80.0,
             "sodium": 510.0,
             "calories": 400.0,
@@ -362,7 +362,7 @@ db.getCollection('food').insertMany([
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "saturated fat": 7.0,
+            "saturatedFat": 7.0,
             "fat": 24.0,
             "sugar": 30.0,
             "cholesterol": 95.0,
@@ -391,7 +391,7 @@ db.getCollection('food').insertMany([
             "sugar": 5.0,
             "fat": 1.0,
             "cholesterol": 0.0,
-            "saturated fat": 0.0,
+            "saturatedFat": 0.0,
             "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262067-90x90.jpg",
@@ -412,7 +412,7 @@ db.getCollection('food').insertMany([
             "sugar": 5.0,
             "fat": 3.0,
             "cholesterol": 0.0,
-            "saturated fat": 0.0,
+            "saturatedFat": 0.0,
             "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262063-90x90.jpg",
@@ -426,7 +426,7 @@ db.getCollection('food').insertMany([
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
             "transFat": 0.5,
-            "saturated fat": 10.0,
+            "saturatedFat": 10.0,
             "fat": 17.0,
             "calories": 300.0,
             "carbs": 34.0,
