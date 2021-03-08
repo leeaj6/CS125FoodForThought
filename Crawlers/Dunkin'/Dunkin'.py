@@ -5,7 +5,7 @@ Created on Sat Mar  6 15:47:41 2021
 @author: akuei
 """
 
-#code gotten online, http client connection to spoonacular api using my rapid api key
+#http connection code gotten online, http client connection to spoonacular api using my rapid api key
 import http.client
 import json
 
