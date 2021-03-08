@@ -2,6 +2,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Ham & Swiss Panini",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
@@ -14,7 +15,7 @@ db.getCollection('food').insertMany([
             "carbs": 42.0,
             "fiber": 2.0,
             "sugar": 1.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263411-90x90.jpg",
         "price": 5.95
@@ -22,6 +23,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Turkey Rustico Panini",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
@@ -34,7 +36,7 @@ db.getCollection('food').insertMany([
             "carbs": 53.0,
             "fiber": 4.0,
             "sugar": 13.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263418-90x90.jpg",
         "price": 6.45
@@ -42,6 +44,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chicken Santa Fe Panini",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
             "protein": 26.0,
@@ -53,7 +56,7 @@ db.getCollection('food').insertMany([
             "carbs": 45.0,
             "fiber": 2.0,
             "sugar": 3.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263407-90x90.jpg",
         "price": 5.95
@@ -61,6 +64,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Turkey & Havarti Sandwich",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
@@ -73,7 +77,7 @@ db.getCollection('food').insertMany([
             "carbs": 31.0,
             "fiber": 2.0,
             "sugar": 2.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263416-90x90.jpg",
         "price": 6.45
@@ -81,6 +85,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Spinach & Feta Breakfast Wrap",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -93,7 +98,7 @@ db.getCollection('food').insertMany([
             "carbs": 33.0,
             "cholesterol": 20.0,
             "sugar": 4.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263415-90x90.jpg",
         "price": 3.75
@@ -101,6 +106,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Egg & Cheddar Breakfast Sandwich",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
@@ -113,7 +119,7 @@ db.getCollection('food').insertMany([
             "carbs": 27.0,
             "fiber": 2.0,
             "sugar": 2.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/316763-90x90.jpg",
         "price": 3.75
@@ -121,6 +127,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Bacon & Gouda Artisan Breakfast Sandwich",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
@@ -131,7 +138,7 @@ db.getCollection('food').insertMany([
             "fat": 18.0,
             "calories": 350.0,
             "carbs": 30.0,
-            "trans fat": 0.0,
+            "transFat": 0.0,
             "fiber": 0.0,
             "sugar": 0.0
         },
@@ -141,6 +148,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Sausage & Cheddar Classic Breakfast Sandwich",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
@@ -153,7 +161,7 @@ db.getCollection('food').insertMany([
             "carbs": 41.0,
             "fiber": 1.0,
             "sugar": 3.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263414-90x90.jpg",
         "price": 3.75
@@ -161,6 +169,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Reduced-Fat Turkey Bacon & White Cheddar Classic Breakfast Sandwich",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
@@ -173,7 +182,7 @@ db.getCollection('food').insertMany([
             "fiber": 2.0,
             "cholesterol": 20.0,
             "sugar": 3.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/316764-90x90.jpg",
         "price": 3.75
@@ -181,6 +190,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Roasted Tomato & Mozzarella Panini",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
@@ -193,7 +203,7 @@ db.getCollection('food').insertMany([
             "fiber": 3.0,
             "cholesterol": 35.0,
             "sugar": 3.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263412-90x90.jpg",
         "price": 5.55
@@ -201,6 +211,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Raspberry Scone",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -213,7 +224,7 @@ db.getCollection('food').insertMany([
             "carbs": 59.0,
             "protein": 8.0,
             "fiber": 3.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262073-90x90.jpg",
         "price": 2.45
@@ -221,10 +232,11 @@ db.getCollection('food').insertMany([
     {
         "title": "Lemon Loaf Cake",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "trans fat": 1.0,
+            "transFat": 1.0,
             "sugar": 48.0,
             "cholesterol": 85.0,
             "fat": 17.0,
@@ -241,6 +253,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Classic Coffee Cake",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -253,7 +266,7 @@ db.getCollection('food').insertMany([
             "sodium": 450.0,
             "protein": 6.0,
             "fiber": 1.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262079-90x90.jpg",
         "price": 2.45
@@ -261,6 +274,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Chip Cookie",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
@@ -273,7 +287,7 @@ db.getCollection('food').insertMany([
             "sodium": 180.0,
             "protein": 3.0,
             "fiber": 1.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263379-90x90.jpg",
         "price": 1.95
@@ -281,6 +295,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Salted Caramel Cake Pop",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -292,7 +307,7 @@ db.getCollection('food').insertMany([
             "sodium": 110.0,
             "protein": 2.0,
             "cholesterol": 10.0,
-            "trans fat": 0.0,
+            "transFat": 0.0,
             "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263391-90x90.jpg",
@@ -301,6 +316,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Petite Vanilla Bean Scone",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -312,7 +328,7 @@ db.getCollection('food').insertMany([
             "cholesterol": 15.0,
             "protein": 2.0,
             "sodium": 75.0,
-            "trans fat": 0.0,
+            "transFat": 0.0,
             "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262066-90x90.jpg",
@@ -321,6 +337,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Reduced Fat Banana Chocolate Chip Coffee Cake",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Treenuts", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -333,7 +350,7 @@ db.getCollection('food').insertMany([
             "fat": 8.0,
             "protein": 5.0,
             "cholesterol": 0.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262074-90x90.jpg",
         "price": 2.75
@@ -341,6 +358,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Double Chocolate Brownie",
         "restaurant": "Starbucks",
+        "breakfast": false,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
@@ -353,7 +371,7 @@ db.getCollection('food').insertMany([
             "fiber": 3.0,
             "protein": 6.0,
             "sodium": 75.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/263383-90x90.jpg",
         "price": 2.35
@@ -361,6 +379,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Plain Bagel",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Wheat"],
         "nutrition": {
@@ -373,7 +392,7 @@ db.getCollection('food').insertMany([
             "fat": 1.0,
             "cholesterol": 0.0,
             "saturated fat": 0.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262067-90x90.jpg",
         "price": 2.25
@@ -381,6 +400,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Multigrain Bagel",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Wheat"],
         "nutrition": {
@@ -393,7 +413,7 @@ db.getCollection('food').insertMany([
             "fat": 3.0,
             "cholesterol": 0.0,
             "saturated fat": 0.0,
-            "trans fat": 0.0
+            "transFat": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/262063-90x90.jpg",
         "price": 2.25
@@ -401,10 +421,11 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Croissant",
         "restaurant": "Starbucks",
+        "breakfast": true,
         "cuisine": ["American"],
         "allergies": ["Milk", "Wheat", "Egg", "Soy"],
         "nutrition": {
-            "trans fat": 0.5,
+            "transFat": 0.5,
             "saturated fat": 10.0,
             "fat": 17.0,
             "calories": 300.0,
