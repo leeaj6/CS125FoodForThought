@@ -2,7 +2,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Crumb Cake Donut",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 9.0,
@@ -22,7 +22,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Chip Muffin",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "sugar": 50.0,
@@ -42,7 +42,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Frosted Cake Donut",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 9.0,
@@ -62,7 +62,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Egg & Cheese Biscuit Sandwich",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "trans fat": 0.5,
@@ -82,7 +82,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Frosted Coffee Roll",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 8.0,
@@ -102,7 +102,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Deluxe Grilled Cheese w/ Bacon",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Milk, Soy, Wheat],
         "nutrition": {
             "trans fat": 0.5,
@@ -122,7 +122,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Whole Wheat Bagel",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Soy, Wheat],
         "nutrition": {
             "fiber": 7.0,
@@ -142,7 +142,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Sausage, Egg & Cheese Bagel Sandwich",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 12.0,
@@ -162,7 +162,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Vanilla Frosted Coffee Roll",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 8.0,
@@ -182,7 +182,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Butternut Donut",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 9.0,
@@ -202,7 +202,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chocolate Frosted Donut",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 7.0,
@@ -222,7 +222,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Chicken Biscuit",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Milk, Wheat],
         "nutrition": {
             "saturated fat": 11.0,
@@ -242,7 +242,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Vanilla Berry Shortcake Donut",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "saturated fat": 8.0,
@@ -262,7 +262,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Blueberry Muffin",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "sugar": 43.0,
@@ -282,7 +282,7 @@ db.getCollection('food').insertMany([
     {
         "title": "Deluxe Grilled Cheese w/ Ham",
         "restaurant": "Dunkin'Donuts",
-        "cuisine": "American",
+        "cuisine": ["American"],
         "allergies": [Eggs, Milk, Soy, Wheat],
         "nutrition": {
             "trans fat": 0.5,
