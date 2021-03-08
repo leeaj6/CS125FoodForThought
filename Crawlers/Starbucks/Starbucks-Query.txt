@@ -17,7 +17,7 @@ db.getCollection('food').insertMany([
             "sugar": 1.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263411-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263411-636x393.jpg",
         "price": 5.95
     },
     {
@@ -38,14 +38,13 @@ db.getCollection('food').insertMany([
             "sugar": 13.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263418-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263418-636x393.jpg",
         "price": 6.45
     },
     {
         "title": "Chicken Santa Fe Panini",
         "restaurant": "Starbucks",
         "breakfast": false,
-        "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
             "protein": 26.0,
@@ -59,7 +58,7 @@ db.getCollection('food').insertMany([
             "sugar": 3.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263407-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263407-636x393.jpg",
         "price": 5.95
     },
     {
@@ -80,7 +79,7 @@ db.getCollection('food').insertMany([
             "sugar": 2.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263416-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263416-636x393.jpg",
         "price": 6.45
     },
     {
@@ -101,7 +100,7 @@ db.getCollection('food').insertMany([
             "sugar": 4.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263415-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263415-636x393.jpg",
         "price": 3.75
     },
     {
@@ -122,7 +121,7 @@ db.getCollection('food').insertMany([
             "sugar": 2.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/316763-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/316763-636x393.jpg",
         "price": 3.75
     },
     {
@@ -143,7 +142,7 @@ db.getCollection('food').insertMany([
             "fiber": 0.0,
             "sugar": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263405-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263405-636x393.jpg",
         "price": 3.75
     },
     {
@@ -164,7 +163,7 @@ db.getCollection('food').insertMany([
             "sugar": 3.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263414-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263414-636x393.jpg",
         "price": 3.75
     },
     {
@@ -185,7 +184,7 @@ db.getCollection('food').insertMany([
             "sugar": 3.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/316764-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/316764-636x393.jpg",
         "price": 3.75
     },
     {
@@ -206,7 +205,7 @@ db.getCollection('food').insertMany([
             "sugar": 3.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263412-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263412-636x393.jpg",
         "price": 5.55
     },
     {
@@ -227,7 +226,7 @@ db.getCollection('food').insertMany([
             "fiber": 3.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262073-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262073-636x393.jpg",
         "price": 2.45
     },
     {
@@ -248,7 +247,7 @@ db.getCollection('food').insertMany([
             "protein": 5.0,
             "fiber": 1.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/305285-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/305285-636x393.jpg",
         "price": 2.45
     },
     {
@@ -269,7 +268,7 @@ db.getCollection('food').insertMany([
             "fiber": 1.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262079-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262079-636x393.jpg",
         "price": 2.45
     },
     {
@@ -290,7 +289,7 @@ db.getCollection('food').insertMany([
             "fiber": 1.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263379-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263379-636x393.jpg",
         "price": 1.95
     },
     {
@@ -311,7 +310,7 @@ db.getCollection('food').insertMany([
             "transFat": 0.0,
             "fiber": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263391-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263391-636x393.jpg",
         "price": 1.00
     },
     {
@@ -332,7 +331,7 @@ db.getCollection('food').insertMany([
             "transFat": 0.0,
             "fiber": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262066-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262066-636x393.jpg",
         "price": 2.45
     },
     {
@@ -353,7 +352,7 @@ db.getCollection('food').insertMany([
             "cholesterol": 0.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262074-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262074-636x393.jpg",
         "price": 2.75
     },
     {
@@ -374,7 +373,7 @@ db.getCollection('food').insertMany([
             "sodium": 75.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/263383-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/263383-636x393.jpg",
         "price": 2.35
     },
     {
@@ -395,7 +394,7 @@ db.getCollection('food').insertMany([
             "saturatedFat": 0.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262067-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262067-636x393.jpg",
         "price": 2.25
     },
     {
@@ -416,7 +415,7 @@ db.getCollection('food').insertMany([
             "saturatedFat": 0.0,
             "transFat": 0.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262063-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262063-636x393.jpg",
         "price": 2.25
     },
     {
@@ -437,7 +436,7 @@ db.getCollection('food').insertMany([
             "sodium": 220.0,
             "fiber": 2.0
         },
-        "image_url": "https://images.spoonacular.com/file/wximages/262047-90x90.jpg",
+        "image_url": "https://images.spoonacular.com/file/wximages/262047-636x393.jpg",
         "price": 2.75
     }
 ])
