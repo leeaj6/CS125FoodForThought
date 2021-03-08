@@ -102,7 +102,7 @@ db.getCollection('food').insertMany([
         "title": "Egg & Cheddar Breakfast Sandwich",
         "restaurant": "Starbucks",
         "cuisine": ["American"],
-        "allergies": [E"Milk", "Wheat", "Egg"],
+        "allergies": ["Milk", "Wheat", "Egg"],
         "nutrition": {
             "cholesterol": 160.0,
             "saturated fat": 5.0,
