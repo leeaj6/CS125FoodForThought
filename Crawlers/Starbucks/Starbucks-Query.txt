@@ -45,6 +45,7 @@ db.getCollection('food').insertMany([
         "title": "Chicken Santa Fe Panini",
         "restaurant": "Starbucks",
         "breakfast": false,
+        "cuisine": ["American"],
         "allergies": ["Milk", "Wheat"],
         "nutrition": {
             "protein": 26.0,
