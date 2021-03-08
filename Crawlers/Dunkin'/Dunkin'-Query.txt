@@ -1,0 +1,302 @@
+db.getCollection('food').insertMany([
+    {
+        "title": "Chocolate Crumb Cake Donut",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 9.0,
+            "fat": 22.0,
+            "sugar": 22.0,
+            "sodium": 490.0,
+            "calories": 380.0,
+            "carbs": 43.0,
+            "fiber": 2.0,
+            "protein": 4.0,
+            "cholesterol": 0.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/donuts.jpg",
+        "price": 0.99
+    },
+    {
+        "title": "Chocolate Chip Muffin",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "sugar": 50.0,
+            "saturated fat": 6.0,
+            "fat": 21.0,
+            "carbs": 83.0,
+            "calories": 550.0,
+            "cholesterol": 60.0,
+            "sodium": 400.0,
+            "protein": 7.0,
+            "fiber": 2.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/chocolate-muffin.jpg",
+        "price": 1.69
+    },
+    {
+        "title": "Chocolate Frosted Cake Donut",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 9.0,
+            "fat": 19.0,
+            "sugar": 20.0,
+            "calories": 350.0,
+            "sodium": 340.0,
+            "carbs": 40.0,
+            "cholesterol": 25.0,
+            "protein": 4.0,
+            "fiber": 1.0,
+            "trans fat": 0.0
+        },
+        "image_url": null,
+        "price": .99
+    },
+    {
+        "title": "Egg & Cheese Biscuit Sandwich",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "trans fat": 0.5,
+            "saturated fat": 14.0,
+            "cholesterol": 170.0,
+            "sodium": 1070.0,
+            "fat": 30.0,
+            "protein": 14.0,
+            "calories": 480.0,
+            "carbs": 37.0,
+            "fiber": 2.0,
+            "sugar": 3.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/sausage-egg-cheese-breakfast-bagel-sandwich.jpg",
+        "price": 3.99
+    },
+    {
+        "title": "Chocolate Frosted Coffee Roll",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 8.0,
+            "fat": 19.0,
+            "calories": 400.0,
+            "sugar": 18.0,
+            "sodium": 430.0,
+            "carbs": 51.0,
+            "protein": 7.0,
+            "fiber": 2.0,
+            "cholesterol": 0.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/roll.jpg",
+        "price": 1.29
+    },
+    {
+        "title": "Deluxe Grilled Cheese w/ Bacon",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Milk, Soy, Wheat],
+        "nutrition": {
+            "trans fat": 0.5,
+            "saturated fat": 13.0,
+            "fat": 29.0,
+            "protein": 22.0,
+            "sodium": 1010.0,
+            "calories": 510.0,
+            "cholesterol": 55.0,
+            "carbs": 40.0,
+            "fiber": 1.0,
+            "sugar": 3.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/grilled-cheese.jpg",
+        "price": 5.79
+    },
+    {
+        "title": "Whole Wheat Bagel",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Soy, Wheat],
+        "nutrition": {
+            "fiber": 7.0,
+            "protein": 13.0,
+            "sodium": 590.0,
+            "carbs": 61.0,
+            "calories": 320.0,
+            "sugar": 10.0,
+            "fat": 2.0,
+            "cholesterol": 0.0,
+            "saturated fat": 0.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/plain-bagel.jpg",
+        "price": .99
+    },
+    {
+        "title": "Sausage, Egg & Cheese Bagel Sandwich",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 12.0,
+            "cholesterol": 215.0,
+            "sodium": 1440.0,
+            "protein": 28.0,
+            "fat": 33.0,
+            "calories": 680.0,
+            "carbs": 67.0,
+            "fiber": 5.0,
+            "sugar": 7.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/bagel-sandwich.jpg",
+        "price": 3.59
+    },
+    {
+        "title": "Vanilla Frosted Coffee Roll",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 8.0,
+            "fat": 19.0,
+            "sugar": 19.0,
+            "calories": 400.0,
+            "sodium": 430.0,
+            "carbs": 52.0,
+            "protein": 7.0,
+            "fiber": 2.0,
+            "cholesterol": 0.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/roll.jpg",
+        "price": 1.29
+    },
+    {
+        "title": "Butternut Donut",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 9.0,
+            "sugar": 33.0,
+            "fat": 20.0,
+            "calories": 410.0,
+            "carbs": 55.0,
+            "sodium": 330.0,
+            "cholesterol": 25.0,
+            "protein": 4.0,
+            "fiber": 1.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/donuts.jpg",
+        "price": .99
+    },
+    {
+        "title": "Chocolate Frosted Donut",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 7.0,
+            "fat": 15.0,
+            "sodium": 340.0,
+            "sugar": 13.0,
+            "calories": 280.0,
+            "carbs": 31.0,
+            "protein": 3.0,
+            "fiber": 1.0,
+            "cholesterol": 0.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/donuts.jpg",
+        "price": .99
+    },
+    {
+        "title": "Chicken Biscuit",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Milk, Wheat],
+        "nutrition": {
+            "saturated fat": 11.0,
+            "sodium": 1180.0,
+            "protein": 21.0,
+            "fat": 25.0,
+            "calories": 510.0,
+            "carbs": 49.0,
+            "cholesterol": 40.0,
+            "fiber": 2.0,
+            "sugar": 4.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/sausage-egg-cheese-breakfast-bagel-sandwich.jpg",
+        "price": 2.99
+    },
+    {
+        "title": "Vanilla Berry Shortcake Donut",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "saturated fat": 8.0,
+            "fat": 19.0,
+            "sugar": 24.0,
+            "calories": 350.0,
+            "sodium": 360.0,
+            "carbs": 43.0,
+            "protein": 3.0,
+            "fiber": 1.0,
+            "cholesterol": 0.0,
+            "trans fat": 0.0
+        },
+        "image_url": null,
+        "price": 0.99
+    },
+    {
+        "title": "Blueberry Muffin",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "sugar": 43.0,
+            "carbs": 76.0,
+            "fat": 15.0,
+            "calories": 460.0,
+            "cholesterol": 60.0,
+            "saturated fat": 3.0,
+            "sodium": 390.0,
+            "protein": 6.0,
+            "fiber": 2.0,
+            "trans fat": 0.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/blueberry-muffin.jpg",
+        "price": 1.69
+    },
+    {
+        "title": "Deluxe Grilled Cheese w/ Ham",
+        "restaurant": "Dunkin'Donuts",
+        "cuisine": "American",
+        "allergies": [Eggs, Milk, Soy, Wheat],
+        "nutrition": {
+            "trans fat": 0.5,
+            "saturated fat": 12.0,
+            "sodium": 1120.0,
+            "protein": 23.0,
+            "fat": 25.0,
+            "calories": 480.0,
+            "cholesterol": 55.0,
+            "carbs": 40.0,
+            "fiber": 1.0,
+            "sugar": 3.0
+        },
+        "image_url": "https://spoonacular.com/menuItemImages/grilled-cheese.jpg",
+        "price": 5.79
+    }
+])
