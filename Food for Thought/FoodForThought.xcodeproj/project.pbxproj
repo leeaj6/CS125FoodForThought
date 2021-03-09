@@ -14,6 +14,11 @@
 		48769DDE25EEFA930058C512 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48769DDD25EEFA930058C512 /* DashboardViewController.swift */; };
 		48769DE125EF710C0058C512 /* RecommendationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48769DE025EF710C0058C512 /* RecommendationTableViewCell.swift */; };
 		48769DE425F18DB10058C512 /* CatalogItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48769DE325F18DB10058C512 /* CatalogItemViewController.swift */; };
+		48C46A5D25F481C300CF7376 /* UsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C46A5C25F481C300CF7376 /* UsageViewController.swift */; };
+		48C46A6025F4AB6100CF7376 /* ConsumedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C46A5F25F4AB6100CF7376 /* ConsumedTableViewCell.swift */; };
+		48C46A6825F5DFA700CF7376 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C46A6725F5DFA700CF7376 /* SearchViewController.swift */; };
+		48C46A6B25F5E65F00CF7376 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C46A6A25F5E65F00CF7376 /* SearchTableViewCell.swift */; };
+		48C46A6E25F6EDCD00CF7376 /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C46A6D25F6EDCD00CF7376 /* UserSettingsViewController.swift */; };
 		48F8AD8325EDD78B0007E760 /* CheckCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8AD8225EDD78B0007E760 /* CheckCellTableViewCell.swift */; };
 		48F8AD8725EDDDE00007E760 /* AllergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8AD8625EDDDE00007E760 /* AllergyViewController.swift */; };
 		DCD3E48125EC6DF200EA6E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3E48025EC6DF200EA6E8B /* AppDelegate.swift */; };
@@ -32,6 +37,11 @@
 		48769DDD25EEFA930058C512 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		48769DE025EF710C0058C512 /* RecommendationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationTableViewCell.swift; sourceTree = "<group>"; };
 		48769DE325F18DB10058C512 /* CatalogItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogItemViewController.swift; sourceTree = "<group>"; };
+		48C46A5C25F481C300CF7376 /* UsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageViewController.swift; sourceTree = "<group>"; };
+		48C46A5F25F4AB6100CF7376 /* ConsumedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumedTableViewCell.swift; sourceTree = "<group>"; };
+		48C46A6725F5DFA700CF7376 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		48C46A6A25F5E65F00CF7376 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		48C46A6D25F6EDCD00CF7376 /* UserSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
 		48F8AD8225EDD78B0007E760 /* CheckCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCellTableViewCell.swift; sourceTree = "<group>"; };
 		48F8AD8625EDDDE00007E760 /* AllergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyViewController.swift; sourceTree = "<group>"; };
 		DCD3E47D25EC6DF200EA6E8B /* FoodForThought.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodForThought.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +100,11 @@
 				48769DDD25EEFA930058C512 /* DashboardViewController.swift */,
 				48769DE025EF710C0058C512 /* RecommendationTableViewCell.swift */,
 				48769DE325F18DB10058C512 /* CatalogItemViewController.swift */,
+				48C46A5C25F481C300CF7376 /* UsageViewController.swift */,
+				48C46A5F25F4AB6100CF7376 /* ConsumedTableViewCell.swift */,
+				48C46A6725F5DFA700CF7376 /* SearchViewController.swift */,
+				48C46A6A25F5E65F00CF7376 /* SearchTableViewCell.swift */,
+				48C46A6D25F6EDCD00CF7376 /* UserSettingsViewController.swift */,
 			);
 			path = FoodForThought;
 			sourceTree = "<group>";
@@ -164,8 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C46A6825F5DFA700CF7376 /* SearchViewController.swift in Sources */,
 				48F8AD8725EDDDE00007E760 /* AllergyViewController.swift in Sources */,
+				48C46A6025F4AB6100CF7376 /* ConsumedTableViewCell.swift in Sources */,
 				48F8AD8325EDD78B0007E760 /* CheckCellTableViewCell.swift in Sources */,
+				48C46A6E25F6EDCD00CF7376 /* UserSettingsViewController.swift in Sources */,
 				DCD3E48525EC6DF200EA6E8B /* ViewController.swift in Sources */,
 				48769DE425F18DB10058C512 /* CatalogItemViewController.swift in Sources */,
 				DCD3E48125EC6DF200EA6E8B /* AppDelegate.swift in Sources */,
@@ -175,6 +193,8 @@
 				48769DD525EEECFE0058C512 /* CuisineTableViewCell.swift in Sources */,
 				48769DDE25EEFA930058C512 /* DashboardViewController.swift in Sources */,
 				48769DD225EED0C00058C512 /* CuisineViewController.swift in Sources */,
+				48C46A6B25F5E65F00CF7376 /* SearchTableViewCell.swift in Sources */,
+				48C46A5D25F481C300CF7376 /* UsageViewController.swift in Sources */,
 				48769DD825EEF6300058C512 /* BudgetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

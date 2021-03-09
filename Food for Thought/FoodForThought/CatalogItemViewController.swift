@@ -95,27 +95,62 @@ class CatalogItemViewController: UIViewController {
     }
     
     @IBAction func addToMeals(_ sender: Any) {
+        // need to add support for adding a meal from search
         print("Button Touched")
         if let presenter = presentingViewController as? DashboardViewController {
-            // update calorie usage
-            presenter.personalData.dailyCalorieUsage = presenter.personalData.dailyCalorieUsage + Double(calories)
+            print(presenter.personalData)
+            // update nutrition usage
+            presenter.personalData.dailyCalorieUsage = presenter.personalData.dailyCalorieUsage + calories
+            presenter.personalData.dailyProteinUsage = presenter.personalData.dailyProteinUsage + protein
+            presenter.personalData.dailyCarbsUsage = presenter.personalData.dailyCarbsUsage + carbs
+            presenter.personalData.dailySugarUsage = presenter.personalData.dailySugarUsage + sugar
+            presenter.personalData.dailyCholesterolUsage = presenter.personalData.dailyCholesterolUsage + cholesterol
+            presenter.personalData.dailySodiumUsage = presenter.personalData.dailySodiumUsage + sodium
+            presenter.personalData.dailyFiberUsage = presenter.personalData.dailyFiberUsage + fiber
+            presenter.personalData.dailyFatUsage = presenter.personalData.dailyFatUsage + fat
+            
             // update spending
             presenter.personalData.spent = presenter.personalData.spent + price
             print("Spent Updated")
             print(presenter.personalData.spent)
+            print(presenter.personalData)
             
             // update labels on dashboard
             DispatchQueue.main.async {
                 // fill in labels for dashboard
                 presenter.spentLabel.text = String(format: "$%.02f", presenter.personalData.spent)
                 presenter.maxBudgetLabel.text = String(format: "$%.02f", presenter.personalData.budget)
-                presenter.dailyCalorieUsageLabel.text = String(format: "%d", presenter.personalData.dailyCalorieUsage)
+
+                presenter.dailyCalorieUsageLabel.text = String(format: "%d", Int(presenter.personalData.dailyCalorieUsage))
+
                 presenter.dailyCaloriePercentageLabel.text = String(format: "%.01f", (Double(presenter.personalData.dailyCalorieUsage)/Double(presenter.personalData.dailyCalorieLimit))*100.0)+"%"
                 // update progress bar for budget
                 presenter.populateGraph()
                 // request new recommendations from API
                 presenter.updateRecommendations()
+                // add to consumed today
+                presenter.dailyFoodItemsConsumed.add(consumedCell(
+                                                        title: self.itemTitle,
+                                                        restaurant: self.restaurant,
+                                                        breakfast: self.breakfast,
+                                                        cuisines: self.cuisines,
+                                                        allergies: self.allergies,
+                                                        calories: self.calories,
+                                                        protein: self.protein,
+                                                        carbs: self.carbs,
+                                                        sugar: self.sugar,
+                                                        cholesterol: self.cholesterol,
+                                                        sodium: self.sodium,
+                                                        fiber: self.fiber,
+                                                        fat: self.fat,
+                                                        transFat: self.transFat,
+                                                        saturatedFat: self.saturatedFat,
+                                                        image: self.itemImage,
+                                                        price: self.price)
+                )
             }
+            print("dailyFoodItemsConsumed")
+            print(presenter.dailyFoodItemsConsumed)
         }
         dismiss(animated: true, completion: nil)
     }

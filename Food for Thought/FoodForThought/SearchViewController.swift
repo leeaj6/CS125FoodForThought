@@ -26,9 +26,7 @@ class SearchViewController: UIViewController, UISearchBarDelegate {
     
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
-        // we would request search API with searchText content here
-        // reload TableView data for search as well - probably new VC for TV
-        print(searchText)
+        //print(searchText)
         searchResults = [] // reset
         getSearchQuery(queryText: searchText)
     }

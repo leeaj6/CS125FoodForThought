@@ -15,13 +15,17 @@ class DashboardViewController: UIViewController {
     @IBOutlet weak var dailyCaloriePercentageLabel: UILabel!
     @IBOutlet weak var maxBudgetLabel: UILabel!
     
-    // search bar
-    @IBOutlet weak var searchBar: UISearchBar!
-    
     // Passed Inputs
     var allergies: NSArray!
     var cuisines: NSArray!
     var budget: Double!
+    var weight: Double!
+    var heightFT: Int!
+    var heightIN: Int!
+    var age: Int!
+    var genderIsMale: Bool!
+    var dailyStepsGoal: Int!
+    var dailyStepsWalked = 0
     
     // keep track of food items for the day - store recommendationCell structs maybe?
     var dailyFoodItemsConsumed: NSMutableArray = []
@@ -156,7 +160,6 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.searchBar.delegate = self
         self.recommendationsTableView.delegate = self
         self.recommendationsTableView.dataSource = self
         
@@ -164,6 +167,12 @@ class DashboardViewController: UIViewController {
         self.personalData.preferences = cuisines as! Array<String>
         self.personalData.allergies = allergies as! Array<String>
         self.personalData.budget = budget
+        self.personalData.weight = Int(weight)
+        self.personalData.heightFeet = heightFT
+        self.personalData.heightInches = heightIN
+        self.personalData.age = age
+        self.personalData.genderIsMale = genderIsMale
+        
         
         
         self.personalData.dailyCalorieLimit = CalorieLimit(gender: self.personalData.genderIsMale,weight: self.personalData.weight,inches: ((self.personalData.heightFeet * 12)+self.personalData.heightInches),age:self.personalData.age)
@@ -190,7 +199,7 @@ class DashboardViewController: UIViewController {
         self.dailyCaloriePercentageLabel.text = String(format: "%.01f", (Double(self.personalData.dailyCalorieUsage)/Double(self.personalData.dailyCalorieLimit))*100.0)+"%"
         
         // START: create circular progress bar
-        let point = CGPoint(x: 210.0, y: 250.0) // hard coded coords
+        let point = CGPoint(x: 210.0, y: 245.0) // hard coded coords
         
         // bottom track
         let trackLayer = CAShapeLayer()
@@ -253,7 +262,14 @@ class DashboardViewController: UIViewController {
             "allergies": personalData.allergies,
             "budget": personalData.budget-personalData.spent,
             "nutrition": [
-                "calories": (personalData.dailyCalorieLimit-personalData.dailyCalorieUsage) // leftover calories
+                "calories": (personalData.dailyCalorieLimit-personalData.dailyCalorieUsage), // leftover calories
+                "protein": (personalData.dailyProteinLimit-personalData.dailyProteinUsage), // leftover protein
+                "carbs": (personalData.dailyCarbsLimit-personalData.dailyCarbsUsage), // leftover carbs
+                "sugar": (personalData.dailySugarLimit-personalData.dailySugarUsage), // leftover sugar
+                "cholesterol": (personalData.dailyCholesterolLimit-personalData.dailyCholesterolUsage), // leftover cholesterol
+                "sodium": (personalData.dailySodiumLimit-personalData.dailySodiumUsage), // leftover sodium
+                "fiber": (personalData.dailyFiberLimit-personalData.dailyFiberUsage), // leftover fiber
+                "fat": (personalData.dailyFatLimit-personalData.dailyFatUsage), // leftover fat
             ],
             "breakfast": false // add a func to check local time
             // if between 6am-10:30am breakfast
@@ -277,6 +293,7 @@ class DashboardViewController: UIViewController {
                     let meals = myJson["data"] as! NSArray
                     
                     for item in meals{
+                        print(item)
                         // general
                         let mealTitle = (item as AnyObject)["title"]!!
                         let mealRest = (item as AnyObject)["restaurant"]!!
@@ -364,15 +381,6 @@ class DashboardViewController: UIViewController {
         task.resume()
     }
     
-}
-
-// handle all search bar interactions
-extension DashboardViewController: UISearchBarDelegate{
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
-        // we would request search API with searchText content here
-        // reload TableView data for search as well - probably new VC for TV
-        print(searchText)
-    }
 }
 
 // handle recommendation TableView
@@ -500,7 +508,7 @@ struct personalModel {
 }
 
 // For No API Testing
-var API_ENABLED = false
+var API_ENABLED = true
 
 
 let BASE_API_URL = "http://127.0.0.1:5000/api/v1/foods/"
