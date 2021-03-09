@@ -186,7 +186,7 @@ db.getCollection('food').insertMany([
         "price": 6.90
     },
     {
-        "title": "Kung Pao Chicken,
+        "title": "Kung Pao Chicken",
         "restaurant": "Panda Express",
         "breakfast": false,
         "cuisine": [
