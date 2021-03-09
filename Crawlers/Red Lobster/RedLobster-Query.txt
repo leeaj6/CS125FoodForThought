@@ -12,7 +12,11 @@ db.getCollection('food').insertMany([
             "fat": 35.0,
             "saturated fat": 8.0,
             "calories": 550.0,
-            "carbs": 4.0
+            "carbs": 4.0,
+            "trans fat": 0.0,
+            "cholesteral": 3570.0,
+            "sugar": 3.0,
+            "fiber": 2.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/255887-90x90.jpg",
         "price": 9.99
@@ -30,7 +34,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 9.0,
             "fat": 26.0,
             "calories": 590.0,
-            "carbs": 54.0
+            "carbs": 54.0,
+            "trans fat": 1.5,
+            "cholesteral": 125.0,
+            "sugar": 2.0,
+            "fiber": 4.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256157-90x90.jpg",
         "price": 9.99
@@ -48,7 +56,12 @@ db.getCollection('food').insertMany([
             "sodium": 1410.0,
             "protein": 26.0,
             "calories": 630.0,
-            "carbs": 16.0
+            "carbs": 16.0,
+            "trans fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 175.0,
+            "sugar": 3.0,
+            "fiber": 4.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256192-90x90.jpg",
         "price": 12.79
@@ -66,7 +79,11 @@ db.getCollection('food').insertMany([
             "sodium": 1470.0,
             "fat": 34.0,
             "calories": 720.0,
-            "carbs": 55.0
+            "carbs": 55.0,
+            "trans fat": 1.5,
+            "cholesteral": 210.0,
+            "sugar": 3.0,
+            "fiber": 8.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256072-90x90.jpg",
         "price": 16.99
@@ -84,7 +101,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 10.0,
             "sodium": 1360.0,
             "calories": 660.0,
-            "carbs": 15.0
+            "carbs": 15.0,
+            "trans fat": 0.0,
+            "cholesteral": 120.0,
+            "sugar": 3.0,
+            "fiber": 4.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256190-90x90.jpg",
         "price": 11.79
@@ -102,7 +123,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 10.0,
             "sodium": 1200.0,
             "calories": 720.0,
-            "carbs": 17.0
+            "carbs": 17.0,
+            "trans fat": 0.0,
+            "cholesteral": 140.0,
+            "sugar": 3.0,
+            "fiber": 4.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256191-90x90.jpg",
         "price": 14.39
@@ -120,7 +145,11 @@ db.getCollection('food').insertMany([
             "sodium": 1100.0,
             "calories": 530.0,
             "protein": 8.0,
-            "carbs": 15.0
+            "carbs": 15.0,
+            "trans fat": 0.0,
+            "cholesteral": 45.0,
+            "sugar": 3.0,
+            "fiber": 4.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256189-90x90.jpg",
         "price": 9.79
@@ -138,7 +167,11 @@ db.getCollection('food').insertMany([
             "calories": 470.0,
             "fat": 13.0,
             "carbs": 45.0,
-            "saturated fat": 1.5
+            "trans fat": 0.0,
+            "saturated fat": 1.5,
+            "cholesteral": 150.0,
+            "sugar": 4.0,
+            "fiber": 3.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256061-90x90.jpg",
         "price": 19.49
@@ -156,7 +189,11 @@ db.getCollection('food').insertMany([
             "fat": 22.0,
             "calories": 440.0,
             "saturated fat": 2.0,
-            "carbs": 22.0
+            "carbs": 22.0,
+            "trans fat": 0.0,
+            "cholesteral": 125.0,
+            "sugar": 9.0,
+            "fiber": 2.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256115-90x90.jpg",
         "price": 9.29
@@ -174,7 +211,11 @@ db.getCollection('food').insertMany([
             "calories": 300.0,
             "carbs": 38.0,
             "fat": 7.0,
-            "saturated fat": 1.5
+            "trans fat": 0.0,
+            "saturated fat": 1.5,
+            "cholesteral": 125.0,
+            "sugar": 3.0,
+            "fiber": 3.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256109-90x90.jpg",
         "price": 17.99
@@ -192,7 +233,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 4.0,
             "fat": 9.0,
             "calories": 240.0,
-            "carbs": 3.0
+            "carbs": 3.0,
+            "trans fat": 1.0,
+            "cholesteral": 125.0,
+            "sugar": 2.0,
+            "fiber": 3.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256132-90x90.jpg",
         "price": 14.99
@@ -210,7 +255,11 @@ db.getCollection('food').insertMany([
             "fat": 26.0,
             "calories": 630.0,
             "carbs": 54.0,
-            "saturated fat": 2.5
+            "saturated fat": 2.5,
+            "trans fat": 0.0,
+            "cholesteral": 120.0,
+            "sugar": 16.0,
+            "fiber": 7.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256114-90x90.jpg",
         "price": 8.79
@@ -228,7 +277,10 @@ db.getCollection('food').insertMany([
             "calories": 50.0,
             "fat": 1.5,
             "carbs": 0.0,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "cholesteral": 135.0,
+            "sugar": 1.0,
+            "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256093-90x90.jpg",
         "price": 5.49
@@ -246,7 +298,11 @@ db.getCollection('food').insertMany([
             "fat": 20.0,
             "calories": 590.0,
             "saturated fat": 4.5,
-            "carbs": 77.0
+            "carbs": 77.0,
+            "trans fat": 0.0,
+            "cholesteral": 135.0,
+            "sugar": 5.0,
+            "fiber": 5.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256201-90x90.jpg",
         "price": 8.99
@@ -264,7 +320,11 @@ db.getCollection('food').insertMany([
             "sodium": 1860.0,
             "protein": 30.0,
             "calories": 880.0,
-            "carbs": 56.0
+            "carbs": 56.0,
+            "trans fat": 0.0,
+            "cholesteral": 95.0,
+            "sugar": 21.0,
+            "fiber": 5.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/255910-90x90.jpg",
         "price": 15.49
@@ -282,7 +342,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 6.0,
             "fat": 24.0,
             "calories": 670.0,
-            "carbs": 70.0
+            "carbs": 70.0,
+            "trans fat": 0.0,
+            "cholesteral": 95.0,
+            "sugar": 5.0,
+            "fiber": 5.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256200-90x90.jpg",
         "price": 7.99
@@ -300,7 +364,11 @@ db.getCollection('food').insertMany([
             "fat": 14.0,
             "protein": 8.0,
             "calories": 210.0,
-            "carbs": 12.0
+            "carbs": 12.0,
+            "trans fat": 0.0,
+            "cholesteral": 80.0,
+            "sugar": 4.0,
+            "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256206-90x90.jpg",
         "price": 14.95
@@ -318,7 +386,11 @@ db.getCollection('food').insertMany([
             "carbs": 12.0,
             "calories": 80.0,
             "fat": 1.0,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 20.0,
+            "sugar": 4.0,
+            "fiber": 2.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256208-90x90.jpg",
         "price": 4.99
@@ -336,7 +408,11 @@ db.getCollection('food').insertMany([
             "fat": 17.0,
             "protein": 9.0,
             "calories": 230.0,
-            "carbs": 13.0
+            "carbs": 13.0,
+            "trans fat": 0.0,
+            "cholesteral": 55.0,
+            "sugar": 4.0,
+            "fiber": 1.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256211-90x90.jpg",
         "price": 4.99
@@ -354,7 +430,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 9.0,
             "fat": 33.0,
             "calories": 560.0,
-            "carbs": 18.0
+            "carbs": 18.0,
+            "trans fat": 1.0,
+            "cholesteral": 190.0,
+            "sugar": 3.0,
+            "fiber": 2.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256143-90x90.jpg",
         "price": 17.99
@@ -372,7 +452,11 @@ db.getCollection('food').insertMany([
             "sodium": 2270.0,
             "fat": 46.0,
             "calories": 940.0,
-            "carbs": 55.0
+            "carbs": 55.0,
+            "trans fat": 1.0,
+            "cholesteral": 205.0,
+            "sugar": 3.0,
+            "fiber": 5.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256074-90x90.jpg",
         "price": 20.99
@@ -390,7 +474,11 @@ db.getCollection('food').insertMany([
             "fat": 8.0,
             "saturated fat": 1.5,
             "calories": 130.0,
-            "carbs": 0.0
+            "carbs": 0.0,
+            "trans fat": 1.0,
+            "cholesteral": 120.0,
+            "sugar": 1.0,
+            "fiber": 1.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256096-90x90.jpg",
         "price": 9.49
@@ -408,7 +496,11 @@ db.getCollection('food').insertMany([
             "fat": 9.0,
             "calories": 190.0,
             "carbs": 19.0,
-            "saturated fat": 1.0
+            "saturated fat": 1.0,
+            "trans fat": 0.0,
+            "cholesteral": 145.0,
+            "sugar": 11.0,
+            "fiber": 4.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256135-90x90.jpg",
         "price": 8.99
@@ -426,28 +518,14 @@ db.getCollection('food').insertMany([
             "calories": 120.0,
             "carbs": 9.0,
             "fat": 0.5,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 215.0,
+            "sugar": 9.0,
+            "fiber": 1.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/255888-90x90.png",
         "price": 8.99
-    },
-    {
-        "title": "Caesar Salad",
-        "restaurant": "Red Lobster",
-        "cuisine": [
-            "American"
-        ],
-        "allergies": ["Soy", "Egg", "Milk", "Wheat", "Fish"],
-        "nutrition": {
-            "fat": 21.0,
-            "saturated fat": 4.5,
-            "sodium": 560.0,
-            "protein": 7.0,
-            "calories": 270.0,
-            "carbs": 13.0
-        },
-        "image_url": "https://spoonacular.com/menuItemImages/seafood-salad.jpg",
-        "price": 9.79
     },
     {
         "title": "Garden Salad",
@@ -462,7 +540,11 @@ db.getCollection('food').insertMany([
             "fat": 5.0,
             "sodium": 160.0,
             "calories": 100.0,
-            "carbs": 10.0
+            "carbs": 10.0,
+            "trans fat": 0.0,
+            "cholesteral": 0.0,
+            "sugar": 4.0,
+            "fiber": 2.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/seafood-salad.jpg",
         "price": 9.79
@@ -480,7 +562,11 @@ db.getCollection('food').insertMany([
             "calories": 170.0,
             "fat": 1.0,
             "carbs": 1.0,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 240.0,
+            "sugar": 2.0,
+            "fiber": 1.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256141-90x90.jpg",
         "price": 29.99
@@ -498,7 +584,11 @@ db.getCollection('food').insertMany([
             "calories": 60.0,
             "fat": 0.5,
             "carbs": 0.0,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 195.0,
+            "sugar": 0.0,
+            "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256121-90x90.png",
         "price": 9.99
@@ -516,7 +606,11 @@ db.getCollection('food').insertMany([
             "calories": 360.0,
             "carbs": 47.0,
             "saturated fat": 1.5,
-            "fat": 6.0
+            "fat": 6.0,
+            "trans fat": 0.0,
+            "cholesteral": 145.0,
+            "sugar": 20.0,
+            "fiber": 1.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256123-90x90.jpg",
         "price": 13.99
@@ -534,7 +628,11 @@ db.getCollection('food').insertMany([
             "calories": 190.0,
             "saturated fat": 1.5,
             "sodium": 150.0,
-            "carbs": 0.0
+            "carbs": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 120.0,
+            "sugar": 0.0,
+            "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256084-90x90.jpg",
         "price": 8.99
@@ -552,7 +650,11 @@ db.getCollection('food').insertMany([
             "sodium": 270.0,
             "calories": 230.0,
             "saturated fat": 1.5,
-            "carbs": 3.0
+            "carbs": 3.0,
+            "trans fat": 0.0,
+            "cholesteral": 100.0,
+            "sugar": 5.0,
+            "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256085-90x90.jpg",
         "price": 8.99
@@ -570,7 +672,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 10.0,
             "fat": 19.0,
             "calories": 510.0,
-            "carbs": 31.0
+            "carbs": 31.0,
+            "trans fat": 1.0,
+            "cholesteral": 230.0,
+            "sugar": 2.0,
+            "fiber": 3.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256106-90x90.jpg",
         "price": 18.99
@@ -588,7 +694,11 @@ db.getCollection('food').insertMany([
             "fat": 28.0,
             "protein": 16.0,
             "calories": 410.0,
-            "carbs": 23.0
+            "carbs": 23.0,
+            "trans fat": 1.0,
+            "cholesteral": 160.0,
+            "sugar": 9.0,
+            "fiber": 0.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256205-90x90.jpg",
         "price": 6.79
@@ -606,7 +716,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 12.0,
             "fat": 48.0,
             "calories": 980.0,
-            "carbs": 74.0
+            "carbs": 74.0,
+            "trans fat": 2.0,
+            "cholesteral": 345.0,
+            "sugar": 14.0,
+            "fiber": 7.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/256151-90x90.jpg",
         "price": 18.49
@@ -624,7 +738,11 @@ db.getCollection('food').insertMany([
             "calories": 160.0,
             "saturated fat": 1.0,
             "protein": 3.0,
-            "fat": 3.5
+            "fat": 3.5,
+            "trans fat": 0.0,
+            "cholesteral": 0.0,
+            "sugar": 1.0,
+            "fiber": 0.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/pilaf.jpg",
         "price": 7.99
@@ -642,7 +760,11 @@ db.getCollection('food').insertMany([
             "fat": 20.0,
             "calories": 350.0,
             "saturated fat": 2.0,
-            "carbs": 21.0
+            "carbs": 21.0,
+            "trans fat": 0.0,
+            "cholesteral": 45.0,
+            "sugar": 0.0,
+            "fiber": 1.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/chicken-strips.jpg",
         "price": 6.49
@@ -660,7 +782,11 @@ db.getCollection('food').insertMany([
             "fat": 24.0,
             "calories": 410.0,
             "saturated fat": 2.0,
-            "carbs": 28.0
+            "carbs": 28.0,
+            "trans fat": 1.0,
+            "cholesteral": 105.0,
+            "sugar": 24.0,
+            "fiber": 7.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/fried-fish.jpg",
         "price": 7.99
@@ -678,7 +804,11 @@ db.getCollection('food').insertMany([
             "calories": 70.0,
             "fat": 1.0,
             "carbs": 2.0,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 30.0,
+            "sugar": 0.0,
+            "fiber": 0.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/seared-scallops.jpg",
         "price": 6.99
@@ -696,7 +826,11 @@ db.getCollection('food').insertMany([
             "calories": 350.0,
             "carbs": 33.0,
             "saturated fat": 1.5,
-            "fat": 6.0
+            "fat": 6.0,
+            "trans fat": 0.0,
+            "cholesteral": 345.0,
+            "sugar": 2.0,
+            "fiber": 1.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/seared-scallops.jpg",
         "price": 25.99
@@ -714,28 +848,14 @@ db.getCollection('food').insertMany([
             "fat": 4.5,
             "calories": 120.0,
             "carbs": 8.0,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 25.0,
+            "sugar": 9.0,
+            "fiber": 1.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/seared-scallops.jpg",
         "price": 6.99
-    },
-    {
-        "title": "Blue Cheese Sirloin",
-        "restaurant": "Red Lobster",
-        "cuisine": [
-            "American"
-        ],
-        "allergies": ["Milk"],
-        "nutrition": {
-            "saturated fat": 19.0,
-            "protein": 52.0,
-            "sodium": 2170.0,
-            "fat": 41.0,
-            "calories": 740.0,
-            "carbs": 42.0
-        },
-        "image_url": "https://spoonacular.com/menuItemImages/steak.jpg",
-        "price": 14.99
     },
     {
         "title": "Grilled Burger",
@@ -750,7 +870,11 @@ db.getCollection('food').insertMany([
             "protein": 45.0,
             "calories": 1170.0,
             "sodium": 1080.0,
-            "carbs": 88.0
+            "carbs": 88.0,
+            "trans fat": 2.5,
+            "cholesteral": 160.0,
+            "sugar": 20.0,
+            "fiber": 7.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/hamburger.jpg",
         "price": 7.99
@@ -768,7 +892,11 @@ db.getCollection('food').insertMany([
             "calories": 460.0,
             "carbs": 64.0,
             "sodium": 380.0,
-            "protein": 6.0
+            "protein": 6.0,
+            "trans fat": 0.0,
+            "cholesteral": 160.0,
+            "sugar": 48.0,
+            "fiber": 1.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/key-lime-pie-slice.jpg",
         "price": 7.49
@@ -786,7 +914,11 @@ db.getCollection('food').insertMany([
             "calories": 170.0,
             "carbs": 20.0,
             "protein": 3.0,
-            "sodium": 45.0
+            "sodium": 45.0,
+            "trans fat": 0.0,
+            "cholesteral": 30.0,
+            "sugar": 14.0,
+            "fiber": 0.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/vanilla-ice-cream-sundae.jpg",
         "price": null
@@ -804,7 +936,11 @@ db.getCollection('food').insertMany([
             "calories": 440.0,
             "carbs": 52.0,
             "protein": 7.0,
-            "sodium": 160.0
+            "sodium": 160.0,
+            "trans fat": 1.0,
+            "cholesteral": 140.0,
+            "sugar": 58.0,
+            "fiber": 3.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/brownie.jpg",
         "price": 8.99
@@ -822,7 +958,11 @@ db.getCollection('food').insertMany([
             "calories": 200.0,
             "protein": 4.0,
             "fat": 0.5,
-            "saturated fat": 0.0
+            "saturated fat": 0.0,
+            "trans fat": 0.0,
+            "cholesteral": 0.0,
+            "sugar": 2.0,
+            "fiber": 5.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/plain-baked-potato.jpg",
         "price": 3.29
@@ -840,7 +980,11 @@ db.getCollection('food').insertMany([
             "fat": 10.0,
             "calories": 210.0,
             "protein": 5.0,
-            "carbs": 27.0
+            "carbs": 27.0,
+            "trans fat": 0.0,
+            "cholesteral": 15.0,
+            "sugar": 2.0,
+            "fiber": 3.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/mashed-potatoes.jpg",
         "price": 3.29
@@ -858,7 +1002,11 @@ db.getCollection('food').insertMany([
             "saturated fat": 11.0,
             "fat": 36.0,
             "calories": 620.0,
-            "carbs": 35.0
+            "carbs": 35.0,
+            "trans fat": 1.0,
+            "cholesteral": 270.0,
+            "sugar": 30.0,
+            "fiber": 5.0
         },
         "image_url": "https://images.spoonacular.com/file/wximages/255915-90x90.jpg",
         "price": 12.99
@@ -876,7 +1024,11 @@ db.getCollection('food').insertMany([
             "protein": 13.0,
             "fat": 13.0,
             "calories": 350.0,
-            "carbs": 46.0
+            "carbs": 46.0,
+            "trans fat": 0.0,
+            "cholesteral": 75.0,
+            "sugar": 5.0,
+            "fiber": 5.0
         },
         "image_url": "https://spoonacular.com/menuItemImages/plain-baked-potato.jpg",
         "price": 6.40
