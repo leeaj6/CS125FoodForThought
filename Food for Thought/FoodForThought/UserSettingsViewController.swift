@@ -82,10 +82,22 @@ class UserSettingsViewController: UIViewController {
     }
     
     @IBAction func updateSteps(_ sender: Any) {
-        let presenter = presentingViewController as? DashboardViewController
-        presenter?.dailyStepsWalked = Int(updateStepsTextField.text!)!
-        stepsWalked.text = String((presenter?.dailyStepsWalked)!)
-        populateGraph()
+        if let presenter = presentingViewController as? DashboardViewController {
+            presenter.dailyStepsWalked = Int(updateStepsTextField.text!)!
+            stepsWalked.text = String(presenter.dailyStepsWalked)
+            
+            presenter.personalData.dailyCalorieLimit = presenter.CalorieLimit(gender: presenter.personalData.genderIsMale,weight: presenter.personalData.weight,inches: ((presenter.personalData.heightFeet * 12)+presenter.personalData.heightInches),age:presenter.personalData.age,steps:presenter.dailyStepsWalked)
+            populateGraph()
+            // update labels on dashboard
+            DispatchQueue.main.async {
+                // fill in labels for dashboard
+
+                presenter.dailyCaloriePercentageLabel.text = String(format: "%.01f", (Double(presenter.personalData.dailyCalorieUsage)/Double(presenter.personalData.dailyCalorieLimit))*100.0)+"%"
+
+                // request new recommendations from API
+                presenter.updateRecommendations()
+            }
+        }
     }
     
 

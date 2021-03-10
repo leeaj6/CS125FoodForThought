@@ -30,12 +30,11 @@ class CuisineViewController: UIViewController {
     // new stuff
     var cuisines = [
         cuisineCell(title: "American", isMarked: false),
-        cuisineCell(title: "Chinese", isMarked: false),
+        cuisineCell(title: "Asian", isMarked: false),
         cuisineCell(title: "Mexican", isMarked: false),
         cuisineCell(title: "Fast Food", isMarked: false),
         cuisineCell(title: "Italian", isMarked: false),
         cuisineCell(title: "Seafood", isMarked: false),
-        cuisineCell(title: "Japanese", isMarked: false),
         cuisineCell(title: "Pizza", isMarked: false)
     ]
     
