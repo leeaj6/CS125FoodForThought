@@ -42,19 +42,20 @@ class DashboardViewController: UIViewController {
      GURMAN HERE: add daily values from struct def
      */
     
-    func CalorieLimit(gender : Bool,weight: Int, inches: Int,age: Int) -> Double{
+    func CalorieLimit(gender : Bool,weight: Int, inches: Int,age: Int,steps :Int) -> Double{
         let realage = Double(age)
         let realheight = Double(inches)
         let realweight = Double(weight)
+        let realsteps = Double(steps)
         if (gender){
             let first = 66.0 + (6.3 * realweight) + (12.9 * realheight)
-            let second = first - (6.8 * realage)
+            let second = first - (6.8 * realage) + (realsteps * 0.1)
             let answer = second * 1.375
             return answer
         }
         else{
             let first = 47.0 + (4.3 * realweight) + (4.7 * realheight)
-            let second = first - (4.7 * realage)
+            let second = first - (4.7 * realage) + (realsteps * 0.1)
             let answer = second * 1.375
             return answer
         }
@@ -175,7 +176,7 @@ class DashboardViewController: UIViewController {
         
         
         
-        self.personalData.dailyCalorieLimit = CalorieLimit(gender: self.personalData.genderIsMale,weight: self.personalData.weight,inches: ((self.personalData.heightFeet * 12)+self.personalData.heightInches),age:self.personalData.age)
+        self.personalData.dailyCalorieLimit = CalorieLimit(gender: self.personalData.genderIsMale,weight: self.personalData.weight,inches: ((self.personalData.heightFeet * 12)+self.personalData.heightInches),age:self.personalData.age,steps:dailyStepsWalked)
         
         self.personalData.dailyProteinLimit = 0.36 * Double(self.personalData.weight)
         self.personalData.dailyFatLimit = 0.025 * self.personalData.dailyCalorieLimit
