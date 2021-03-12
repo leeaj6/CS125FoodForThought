@@ -1,0 +1,106 @@
+db.getCollection('food').insertMany([
+    {
+        "title": "Atlantic Salmon",
+        "restaurant": "CFG",
+        "breakfast": false,
+        "cuisine": [
+            "American", 
+            "Seafood"
+        ],
+        "allergies": [
+            "Fish"
+        ],
+        "nutrition": {
+            "calories": 340.0,
+            "protein": 22.0,
+            "carbs": 0.0,
+            "sugar": 0.0,
+            "cholesterol": 130.0,
+            "sodium": 360.0,
+            "fiber": 0.0,
+            "fat": 13.0,
+            "transFat": 0.0,
+            "saturatedFat": 3.0
+        },
+        "image_url": null,
+        "price": 12.79
+    },
+    {
+        "title": "Salmon & Swai Combo",
+        "restaurant": "CFG",
+        "breakfast": false,
+        "cuisine": [
+            "American", 
+            "Seafood"
+        ],
+        "allergies": [
+            "Fish"
+        ],
+        "nutrition": {
+            "calories": 330.0,
+            "protein": 22.0,
+            "carbs": 2.0,
+            "sugar": 0.0,
+            "cholesterol": 140.0,
+            "sodium": 720.0,
+            "fiber": 0.0,
+            "fat": 11.0,
+            "transFat": 0.0,
+            "saturatedFat": 3.0
+        },
+        "image_url": null,
+        "price": 12.29
+    },
+    {
+        "title": "Ahi Tuna* (Grilled or Cajun Seared)",
+        "restaurant": "CFG",
+        "breakfast": false,
+        "cuisine": [
+            "American", 
+            "Seafood"
+        ],
+        "allergies": [
+            "Fish"
+        ],
+        "nutrition": {
+            "calories": 290.0,
+            "protein": 55.0,
+            "carbs": 0.0,
+            "sugar": 0.0,
+            "cholesterol": 110.0,
+            "sodium": 150.0,
+            "fiber": 0.0,
+            "fat": 3.0,
+            "transFat": 0.0,
+            "saturatedFat": 1.0
+        },
+        "image_url": null,
+        "price": 13.25
+    },
+    {
+        "title": "Tilapia",
+        "restaurant": "CFG",
+        "breakfast": false,
+        "cuisine": [
+            "American", 
+            "Seafood"
+        ],
+        "allergies": [
+            "Fish"
+        ],
+        "nutrition": {
+            "calories": 280.0,
+            "protein": 43.0,
+            "carbs": 0.0,
+            "sugar": 0.0,
+            "cholesterol": 110.0,
+            "sodium": 290.0,
+            "fiber": 0.0,
+            "fat": 7.0,
+            "transFat": 0.0,
+            "saturatedFat": 2.0
+        },
+        "image_url": null,
+        "price": 10.25
+    }
+])
