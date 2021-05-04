@@ -1,5 +1,5 @@
 # Food For Thought
-![sample image](https://github.com/GurmanMannUCI/CS125FoodForThought/blob/main/Assets/previewed.png?raw=true)
+![sample image](https://github.com/leeaj6/CS125FoodForThought/blob/main/Assets/previewed.png?raw=true)
 An IOS application developed for a CS 125 class project. Built using Swift, Python, Flask, and MongoDB.
 
 ## Introduction
@@ -16,10 +16,10 @@ An IOS application developed for a CS 125 class project. Built using Swift, Pyth
 	* Food Preferences
 	* Budget
 	* Health (Weight, Height, Age, Gender, Step Goal)
-![Allergy Input](https://raw.githubusercontent.com/GurmanMannUCI/CS125FoodForThought/main/Assets/allergies_iphone12promaxpacificblue_portrait.png)
-![Cuisine Input](https://github.com/GurmanMannUCI/CS125FoodForThought/blob/main/Assets/cuisines_iphone12promaxpacificblue_portrait.png?raw=true)
-![Health Input](https://github.com/GurmanMannUCI/CS125FoodForThought/blob/main/Assets/health_iphone12promaxpacificblue_portrait.png?raw=true)
+![Allergy Input](https://raw.githubusercontent.com/leeaj6/CS125FoodForThought/main/Assets/allergies_iphone12promaxpacificblue_portrait.png)
+![Cuisine Input](https://github.com/leeaj6/CS125FoodForThought/blob/main/Assets/cuisines_iphone12promaxpacificblue_portrait.png?raw=true)
+![Health Input](https://github.com/leeaj6/CS125FoodForThought/blob/main/Assets/health_iphone12promaxpacificblue_portrait.png?raw=true)
 
 ## Providing Recommendations
 * Our recommendation API route takes a JSON payload, based on the user's personal model, that is updated throughout the day as the user consumes items
-![Dashboard](https://raw.githubusercontent.com/GurmanMannUCI/CS125FoodForThought/main/Assets/dashboard-used_iphone12promaxpacificblue_portrait.png)
+![Dashboard](https://raw.githubusercontent.com/leeaj6/CS125FoodForThought/main/Assets/dashboard-used_iphone12promaxpacificblue_portrait.png)
